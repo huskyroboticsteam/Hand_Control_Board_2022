@@ -1,0 +1,3 @@
+[submodule "Motor Unit/CANLib"]
+	path = Motor Unit/CANLib
+	url = https://github.com/huskyroboticsteam/HindsightCAN.git
