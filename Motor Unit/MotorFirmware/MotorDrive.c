@@ -15,6 +15,8 @@
 #include "main.h"
 #include <stdint.h>
 #include "MotorDrive.h"
+#include "PCA9685.h"
+
 
 uint8_t invalidate = 0;
 extern char txData[TX_DATA_SIZE];
@@ -27,19 +29,24 @@ void set_PWM(int16_t compare, uint8_t disable_limit, uint8 limitSW) {
     sprintf(txData, "PWM:%d disable_limit: %d\r\n",compare,disable_limit);
     UART_UartPutString(txData); 
     #endif
-    
-    invalidate = 0;
-    if (compare < 0 && (!(limitSW & 0b01) || disable_limit) ) {
-        Pin_Direction_Write(0);
-        currentPWM = compare;
-        PWM_Motor_WriteCompare(-compare);
-    } else if (compare > 0 && (!(limitSW & 0b10) || disable_limit) ){
-        Pin_Direction_Write(1);
-        currentPWM = compare;
-        PWM_Motor_WriteCompare(compare);
+    if (GetPacketID(&can_recieve) == 0xE) {
+      //  setPWMFromBytes((&can_recieve)->data[1], (&can_recieve)->data[2], (&can_recieve)->data[3], 
+                       // (&can_recieve)->data[4], (&can_recieve)->data[5]);
+        setPWMFromDutyCycle(0x0,50);
     } else {
-        currentPWM = 0;
-        PWM_Motor_WriteCompare(0);
+        invalidate = 0;
+        if (compare < 0 && (!(limitSW & 0b01) || disable_limit) ) {
+            Pin_Direction_Write(0);
+            currentPWM = compare;
+            PWM_Motor_WriteCompare(-compare);
+        } else if (compare > 0 && (!(limitSW & 0b10) || disable_limit) ){
+            Pin_Direction_Write(1);
+            currentPWM = compare;
+            PWM_Motor_WriteCompare(compare);
+        } else {
+            currentPWM = 0;
+            PWM_Motor_WriteCompare(0);
+        }
     }
 }
 

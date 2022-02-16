@@ -17,6 +17,7 @@
 #include "Motor_Unit_CAN.h"
 #include "Motor_Unit_FSM.h"
 #include "PositionPID.h"
+#include "PCA9685.h"
 
 #ifdef RGB_LED_ARRAY
 #include "LED_Array.h"
@@ -26,7 +27,6 @@ extern const uint32 StripLights_CLUT[ ];
 //LED
 uint8_t CAN_time_LED = 0;
 uint8_t ERRORTimeLED = 0;
-
 int32_t millidegreeTarget = 0;
 
 //Uart variables
@@ -40,11 +40,8 @@ uint8_t encoderTimeOut = 0;
 
 uint8 address = 0;
 
-//Status and Data Structs
 volatile uint8 drive = 0;
 uint8_t CAN_check_delay = 0;
-CANPacket can_recieve;
-CANPacket can_send;
 
 CY_ISR(Period_Reset_Handler) {
     int timer = Timer_PWM_ReadStatusRegister();
@@ -102,6 +99,17 @@ int main(void)
     StripLights_DisplayClear(StripLights_BLACK);
     #endif
     
+    can_recieve.data[0] = 0xE;
+    can_recieve.data[1] = 0x5;
+    can_recieve.data[2] = 0xFF;
+    can_recieve.data[3] = 0xFF;
+    can_recieve.data[4] = 0x00;
+    can_recieve.data[5] = 0x00;
+    can_recieve.id = 0xE;
+    SetStateTo(SET_PWM);
+    for (;;) {
+        setPWMFromDutyCycle(0x0, 50);
+    }
     for(;;)
     {
         switch(GetState()) {
@@ -162,11 +170,7 @@ void Initialize(void) {
     
     address = Can_addr_Read();
     
-    #ifdef ENABLE_DEBUG_UART
-    UART_Start();
-    sprintf(txData, "Dip Addr: %x \r\n", address);
-    UART_UartPutString(txData);
-    #endif
+    pca_init();
     
     #ifdef ERROR_LED
     ERROR_LED_Write(~(address >> 3 & 1));
@@ -212,6 +216,7 @@ uint16_t ReadCAN(CANPacket *receivedPacket){
     }
     return NO_NEW_CAN_PACKET; //Means no Packet
 }
+
 
 void DisplayErrorCode(uint8_t code) {
     
