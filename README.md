@@ -1,2 +1,3 @@
-# Motor-Unit-Firmware-A-2019-2020-master
- 
+# Hand_Control_Board_2022
+
+Controlling the motors, servos, lasers, etc using the PCA
