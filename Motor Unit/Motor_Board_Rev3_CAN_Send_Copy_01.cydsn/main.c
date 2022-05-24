@@ -113,7 +113,8 @@ int main(void)
 void Initialize(void) {
     CyGlobalIntEnable; /* Enable global interrupts. LED arrays need this first */
     initalize_LEDs(LOW_LED_POWER);
-    
+    I2C_Start();
+    I2C_Enable();
     //display Dip Status
     address = Can_addr_Read();
     UART_Start();

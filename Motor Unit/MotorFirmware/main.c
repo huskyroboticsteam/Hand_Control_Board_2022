@@ -94,21 +94,23 @@ CY_ISR(Pin_Limit_Handler){
 
 int main(void)
 { 
+    CyGlobalIntEnable; /* Enable global interrupts. LED arrays need this first */
+    pca_init();
     Initialize();
     #ifdef RGB_LED_ARRAY
     StripLights_DisplayClear(StripLights_BLACK);
     #endif
-    
-    can_recieve.data[0] = 0xE;
-    can_recieve.data[1] = 0x5;
-    can_recieve.data[2] = 0xFF;
-    can_recieve.data[3] = 0xFF;
-    can_recieve.data[4] = 0x00;
-    can_recieve.data[5] = 0x00;
-    can_recieve.id = 0xE;
-    SetStateTo(SET_PWM);
+    int pin = 1;
     for (;;) {
-        setPWMFromDutyCycle(0x0, 50);
+        
+        for (int i = 0; i < 100; i++) {
+            setPWMFromDutyCycle(pin, i);
+            CyDelay(10);
+        }
+        for (int i = 100; i >= 0; i--) {
+            setPWMFromDutyCycle(pin, i);
+            CyDelay(10);
+        }
     }
     for(;;)
     {
@@ -160,7 +162,6 @@ int main(void)
 }
  
 void Initialize(void) {
-    CyGlobalIntEnable; /* Enable global interrupts. LED arrays need this first */
     
     #ifdef RGB_LED_ARRAY
     initalize_LEDs(LOW_LED_POWER);
@@ -170,7 +171,6 @@ void Initialize(void) {
     
     address = Can_addr_Read();
     
-    pca_init();
     
     #ifdef ERROR_LED
     ERROR_LED_Write(~(address >> 3 & 1));

@@ -32,7 +32,7 @@ void set_PWM(int16_t compare, uint8_t disable_limit, uint8 limitSW) {
     if (GetPacketID(&can_recieve) == 0xE) {
       //  setPWMFromBytes((&can_recieve)->data[1], (&can_recieve)->data[2], (&can_recieve)->data[3], 
                        // (&can_recieve)->data[4], (&can_recieve)->data[5]);
-        setPWMFromDutyCycle(0x0,50);
+        setPWMFromDutyCycle(0x0,100);
     } else {
         invalidate = 0;
         if (compare < 0 && (!(limitSW & 0b01) || disable_limit) ) {

@@ -72,6 +72,7 @@ uint8 TurnOffTimeH(int dutyCycle){
        return offTime >> 8;}
 
 uint32 writeBuffer(uint8 *buff, uint32_t PCA9685Address){
+    int counter = 0;
      uint32 status = TRANSFER_ERROR;
     
     (void) I2C_I2CMasterClearStatus();
@@ -81,6 +82,13 @@ uint32 writeBuffer(uint8 *buff, uint32_t PCA9685Address){
          * wait until I2C Master completes write transfer */
         while (0u == (I2C_I2CMasterStatus() & I2C_I2C_MSTAT_WR_CMPLT))
         {
+            if (counter >= 150) {
+                I2C_Stop();
+                I2C_Start();
+                I2C_I2CMasterClearStatus();
+                break;
+            }
+            counter++;
         }
         
         /* Report transfer status */
