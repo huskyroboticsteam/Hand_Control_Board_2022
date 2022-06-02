@@ -705,7 +705,7 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
-<deps_time v="132986159590568096" />
+<deps_time v="132986191282531661" />
 <top_block v="TopDesign" />
 <last_generation v="11" />
 <pdl_path v="" />
@@ -1108,6 +1108,7 @@
 <dep name="..\CANLib\CANPower.h" />
 <dep name="..\MotorFirmware\MotorDrive.c" />
 <dep name="..\MotorFirmware\MotorDrive.h" />
+<dep name="..\MotorFirmware\PCA9685.h" />
 <dep name="..\MotorFirmware\main.h" />
 <dep name=".\cyapicallbacks.h" />
 </file>
@@ -1115,6 +1116,7 @@
 <file name="..\CANLib\CANLibrary.h" />
 <file name="..\MotorFirmware\MotorDrive.c" />
 <file name="..\MotorFirmware\MotorDrive.h" />
+<file name="..\MotorFirmware\PCA9685.h" />
 <file name="..\MotorFirmware\main.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Motor_Unit_CAN.o">
 <dep name=".\CortexM0\ARM_GCC_541\CANLib\CANLocalization.h" />
@@ -1488,7 +1490,6 @@
 <dep name=".\cyapicallbacks.h" />
 </file>
 <file name="..\MotorFirmware\Motor_Unit_Debug.h" />
-<file name="..\MotorFirmware\PCA9685.h" />
 <file name="..\MotorFirmware\main.c" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\LED_Array.o">
 <dep name=".\Generated_Source\PSoC4\ADC_SAR_Seq_1.h" />
@@ -3511,7 +3512,7 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="132986178451315148" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="132986194437620656" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>

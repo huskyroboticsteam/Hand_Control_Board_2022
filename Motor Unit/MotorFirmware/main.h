@@ -42,8 +42,8 @@
         #define TX_DATA_SIZE            (100u)
 
         //Status and Data Structs
-        //CANPacket can_recieve;
-        //CANPacket can_send;
+        CANPacket can_recieve;
+        CANPacket can_send;
         
         //void check_Pin(void);
             struct Error
