@@ -9,7 +9,7 @@
 
 #include "CANPacket.h"
 #include "CANCommon.h"
-#include "Port.h"
+#include "..\..\HindsightCAN\Port.h"
 // Assembles Emergency Stop Packet with given parameters
 // Inputs:
 //      packet:                     CAN Packet to assemble (will overwrite).

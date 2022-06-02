@@ -12,6 +12,7 @@
 #include <stdint.h>
 #include "CANSerialNumbers.h"
 
+
 typedef struct
 {
     uint16_t id;

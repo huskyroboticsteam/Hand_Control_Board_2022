@@ -8,7 +8,7 @@
  */
 #if CHIP_TYPE == CHIP_TYPE_PSOC_CY8C4248AZI_L485
 
-#include "../Port.h"
+#include "..\..\HindsightCAN\Port.h"
 #include "project.h"
     
 //Flag internal to this port, 0xFF if no message waiting, doubles as mailbox number

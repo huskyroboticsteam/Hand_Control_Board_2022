@@ -8,7 +8,7 @@
  */
 
 #include "CANPacket.h"
-#include "Port.h"
+#include "..\..\HindsightCAN\Port.h"
 
 // Constructs a CAN ID according to standards set by electronics subsystem
 // for hindsight (PY2020 rover). Not compatible with Orpheus (PY2019)

@@ -1,21 +1,193 @@
---------------- Build Started: 10/23/2021 13:20:29 Project: Motor_Board_Rev3, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
-The code generation step is up to date.
+--------------- Build Started: 06/01/2022 21:01:57 Project: Motor_Board_Rev3, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+cydsfit.exe -.appdatapath "C:\Users\csgor\AppData\Local\Cypress Semiconductor\PSoC Creator\4.4" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p "C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Rev3.cydsn\Motor_Board_Rev3.cyprj" -d CY8C4248AZI-L485 -s "C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Rev3.cydsn\Generated_Source\PSoC4" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+HDL Generation...
+Synthesis...
+Tech Mapping...
+Analog Placement...
+Analog Routing...
+Analog Code Generation...
+Digital Placement...
+Digital Routing...
+Bitstream Generation...
+Bitstream Verification...
+Static timing analysis...
+API Generation...
+Dependency Generation...
+Cleanup...
 arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -D CHIP_TYPE=CHIP_TYPE_PSOC_CY8C4248AZI_L485 -Wall -ffunction-sections -ffat-lto-objects -Og -c ..\MotorFirmware\main.c -o .\CortexM0\ARM_GCC_541\Debug\main.o
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:20:3: error: conflicting types for 'CANPacket'
+ } CANPacket;
+   ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:20:3: note: previous declaration of 'CANPacket' was here
+ } CANPacket;
+   ^
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:22:11: error: conflicting types for 'ConstructCANPacket'
+ CANPacket ConstructCANPacket(uint16_t id, uint8_t dlc, uint8_t* data);
+           ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:22:11: note: previous declaration of 'ConstructCANPacket' was here
+ CANPacket ConstructCANPacket(uint16_t id, uint8_t dlc, uint8_t* data);
+           ^
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:29:9: error: conflicting types for 'GetPacketPriority'
+ uint8_t GetPacketPriority(CANPacket *packet);
+         ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:29:9: note: previous declaration of 'GetPacketPriority' was here
+ uint8_t GetPacketPriority(CANPacket *packet);
+         ^
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:31:9: error: conflicting types for 'GetDeviceGroupCode'
+ uint8_t GetDeviceGroupCode(CANPacket *packet);
+         ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:31:9: note: previous declaration of 'GetDeviceGroupCode' was here
+ uint8_t GetDeviceGroupCode(CANPacket *packet);
+         ^
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:32:9: error: conflicting types for 'GetDeviceSerialNumber'
+ uint8_t GetDeviceSerialNumber(CANPacket *packet);
+         ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:32:9: note: previous declaration of 'GetDeviceSerialNumber' was here
+ uint8_t GetDeviceSerialNumber(CANPacket *packet);
+         ^
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:33:9: error: conflicting types for 'GetSenderDeviceSerialNumber'
+ uint8_t GetSenderDeviceSerialNumber(CANPacket *packet);
+         ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:33:9: note: previous declaration of 'GetSenderDeviceSerialNumber' was here
+ uint8_t GetSenderDeviceSerialNumber(CANPacket *packet);
+         ^
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:34:9: error: conflicting types for 'GetSenderDeviceGroupCode'
+ uint8_t GetSenderDeviceGroupCode(CANPacket *packet);
+         ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:34:9: note: previous declaration of 'GetSenderDeviceGroupCode' was here
+ uint8_t GetSenderDeviceGroupCode(CANPacket *packet);
+         ^
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:36:5: error: conflicting types for 'PacketIsInGroup'
+ int PacketIsInGroup(CANPacket *packet, uint8_t expectedType);
+     ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:36:5: note: previous declaration of 'PacketIsInGroup' was here
+ int PacketIsInGroup(CANPacket *packet, uint8_t expectedType);
+     ^
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:37:5: error: conflicting types for 'SenderPacketIsInGroup'
+ int SenderPacketIsInGroup(CANPacket *packet, uint8_t expectedType);
+     ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:37:5: note: previous declaration of 'SenderPacketIsInGroup' was here
+ int SenderPacketIsInGroup(CANPacket *packet, uint8_t expectedType);
+     ^
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:38:5: error: conflicting types for 'SenderPacketIsOfDevice'
+ int SenderPacketIsOfDevice(CANPacket *packet, uint8_t expectedType);
+     ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:38:5: note: previous declaration of 'SenderPacketIsOfDevice' was here
+ int SenderPacketIsOfDevice(CANPacket *packet, uint8_t expectedType);
+     ^
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:39:5: error: conflicting types for 'TargetsDevice'
+ int TargetsDevice(CANPacket *packet, uint8_t targetDeviceGroup, uint8_t targetDeviceSerialNumber);
+     ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:39:5: note: previous declaration of 'TargetsDevice' was here
+ int TargetsDevice(CANPacket *packet, uint8_t targetDeviceGroup, uint8_t targetDeviceSerialNumber);
+     ^
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:41:5: error: conflicting types for 'GetPacketID'
+ int GetPacketID(CANPacket *packet);
+     ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:41:5: note: previous declaration of 'GetPacketID' was here
+ int GetPacketID(CANPacket *packet);
+     ^
+In file included from ..\MotorFirmware\../CANLib/..\..\HindsightCAN\Port.h:18:0,
+                 from ..\MotorFirmware\../CANLib/CANLibrary.h:14,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/..\..\HindsightCAN\CANPacket.h:42:5: error: conflicting types for 'PacketIsOfID'
+ int PacketIsOfID(CANPacket *packet, uint8_t expectedID);
+     ^
+In file included from ..\MotorFirmware\../CANLib/CANLibrary.h:12:0,
+                 from ..\MotorFirmware\main.h:15,
+                 from ..\MotorFirmware\main.c:13:
+..\MotorFirmware\../CANLib/CANPacket.h:42:5: note: previous declaration of 'PacketIsOfID' was here
+ int PacketIsOfID(CANPacket *packet, uint8_t expectedID);
+     ^
 ..\MotorFirmware\main.c: In function 'Period_Reset_Handler':
 ..\MotorFirmware\main.c:50:9: warning: unused variable 'timer' [-Wunused-variable]
      int timer = Timer_PWM_ReadStatusRegister();
          ^
-arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/Motor_Unit_CAN.lst -g -D DEBUG -D CY_CORE_ID=0 -D CHIP_TYPE=CHIP_TYPE_PSOC_CY8C4248AZI_L485 -Wall -ffunction-sections -ffat-lto-objects -Og -c ..\MotorFirmware\Motor_Unit_CAN.c -o .\CortexM0\ARM_GCC_541\Debug\Motor_Unit_CAN.o
-arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/MotorDrive.lst -g -D DEBUG -D CY_CORE_ID=0 -D CHIP_TYPE=CHIP_TYPE_PSOC_CY8C4248AZI_L485 -Wall -ffunction-sections -ffat-lto-objects -Og -c ..\MotorFirmware\MotorDrive.c -o .\CortexM0\ARM_GCC_541\Debug\MotorDrive.o
-arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/PositionPID.lst -g -D DEBUG -D CY_CORE_ID=0 -D CHIP_TYPE=CHIP_TYPE_PSOC_CY8C4248AZI_L485 -Wall -ffunction-sections -ffat-lto-objects -Og -c ..\MotorFirmware\PositionPID.c -o .\CortexM0\ARM_GCC_541\Debug\PositionPID.o
-arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\Motor_Board_Rev3.a .\CortexM0\ARM_GCC_541\Debug\Pin_Limit_1.o .\CortexM0\ARM_GCC_541\Debug\Pin_Limit_1_PM.o .\CortexM0\ARM_GCC_541\Debug\Pin_Limit_2.o .\CortexM0\ARM_GCC_541\Debug\Pin_Limit_2_PM.o .\CortexM0\ARM_GCC_541\Debug\PWM_Motor.o .\CortexM0\ARM_GCC_541\Debug\PWM_Motor_PM.o .\CortexM0\ARM_GCC_541\Debug\isr_Limit_1.o .\CortexM0\ARM_GCC_541\Debug\Pin_Motor.o .\CortexM0\ARM_GCC_541\Debug\Pin_Motor_PM.o .\CortexM0\ARM_GCC_541\Debug\Clock_PWM.o .\CortexM0\ARM_GCC_541\Debug\Pin_Pot.o .\CortexM0\ARM_GCC_541\Debug\Pin_Pot_PM.o .\CortexM0\ARM_GCC_541\Debug\Pin_Direction.o .\CortexM0\ARM_GCC_541\Debug\Pin_Direction_PM.o .\CortexM0\ARM_GCC_541\Debug\QuadDec.o .\CortexM0\ARM_GCC_541\Debug\QuadDec_INT.o .\CortexM0\ARM_GCC_541\Debug\QuadDec_PM.o .\CortexM0\ARM_GCC_541\Debug\Pin_Encoder_A.o .\CortexM0\ARM_GCC_541\Debug\Pin_Encoder_A_PM.o .\CortexM0\ARM_GCC_541\Debug\Pin_Encoder_B.o .\CortexM0\ARM_GCC_541\Debug\Pin_Encoder_B_PM.o .\CortexM0\ARM_GCC_541\Debug\Debug_1.o .\CortexM0\ARM_GCC_541\Debug\Debug_1_PM.o .\CortexM0\ARM_GCC_541\Debug\Debug_2.o .\CortexM0\ARM_GCC_541\Debug\Debug_2_PM.o .\CortexM0\ARM_GCC_541\Debug\Status_Reg_Switches.o .\CortexM0\ARM_GCC_541\Debug\Clock_2.o .\CortexM0\ARM_GCC_541\Debug\StripLights.o .\CortexM0\ARM_GCC_541\Debug\StripLights_fonts.o .\CortexM0\ARM_GCC_541\Debug\Array_LED.o .\CortexM0\ARM_GCC_541\Debug\Array_LED_PM.o .\CortexM0\ARM_GCC_541\Debug\ADC_SAR_Seq_1.o .\CortexM0\ARM_GCC_541\Debug\ADC_SAR_Seq_1_PM.o .\CortexM0\ARM_GCC_541\Debug\ADC_SAR_Seq_1_INT.o .\CortexM0\ARM_GCC_541\Debug\RX_1.o .\CortexM0\ARM_GCC_541\Debug\RX_1_PM.o .\CortexM0\ARM_GCC_541\Debug\TX_1.o .\CortexM0\ARM_GCC_541\Debug\TX_1_PM.o .\CortexM0\ARM_GCC_541\Debug\CAN.o .\CortexM0\ARM_GCC_541\Debug\CAN_INT.o .\CortexM0\ARM_GCC_541\Debug\CAN_PM.o .\CortexM0\ARM_GCC_541\Debug\CAN_TX_RX_func.o .\CortexM0\ARM_GCC_541\Debug\UART.o .\CortexM0\ARM_GCC_541\Debug\UART_SPI_UART.o .\CortexM0\ARM_GCC_541\Debug\UART_SPI_UART_INT.o .\CortexM0\ARM_GCC_541\Debug\UART_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_UART.o .\CortexM0\ARM_GCC_541\Debug\UART_BOOT.o .\CortexM0\ARM_GCC_541\Debug\UART_UART_BOOT.o .\CortexM0\ARM_GCC_541\Debug\Dip_1.o .\CortexM0\ARM_GCC_541\Debug\Dip_1_PM.o .\CortexM0\ARM_GCC_541\Debug\Dip_3.o .\CortexM0\ARM_GCC_541\Debug\Dip_3_PM.o .\CortexM0\ARM_GCC_541\Debug\Dip_2.o .\CortexM0\ARM_GCC_541\Debug\Dip_2_PM.o .\CortexM0\ARM_GCC_541\Debug\Dip_4.o .\CortexM0\ARM_GCC_541\Debug\Dip_4_PM.o .\CortexM0\ARM_GCC_541\Debug\Can_addr.o .\CortexM0\ARM_GCC_541\Debug\timer_clock.o .\CortexM0\ARM_GCC_541\Debug\Timer_PWM.o .\CortexM0\ARM_GCC_541\Debug\Timer_PWM_PM.o .\CortexM0\ARM_GCC_541\Debug\isr_period_PWM.o .\CortexM0\ARM_GCC_541\Debug\CAN_LED.o .\CortexM0\ARM_GCC_541\Debug\CAN_LED_PM.o .\CortexM0\ARM_GCC_541\Debug\ERROR_LED.o .\CortexM0\ARM_GCC_541\Debug\ERROR_LED_PM.o .\CortexM0\ARM_GCC_541\Debug\FAULT_MOTOR.o .\CortexM0\ARM_GCC_541\Debug\FAULT_MOTOR_PM.o .\CortexM0\ARM_GCC_541\Debug\QuadDec_isr.o .\CortexM0\ARM_GCC_541\Debug\QuadDec_Cnt16.o .\CortexM0\ARM_GCC_541\Debug\QuadDec_Cnt16_PM.o .\CortexM0\ARM_GCC_541\Debug\StripLights_StringSel.o .\CortexM0\ARM_GCC_541\Debug\StripLights_StringSel_PM.o .\CortexM0\ARM_GCC_541\Debug\StripLights_cisr.o .\CortexM0\ARM_GCC_541\Debug\StripLights_fisr.o .\CortexM0\ARM_GCC_541\Debug\ADC_SAR_Seq_1_IRQ.o .\CortexM0\ARM_GCC_541\Debug\ADC_SAR_Seq_1_intClock.o .\CortexM0\ARM_GCC_541\Debug\CAN_isr.o .\CortexM0\ARM_GCC_541\Debug\CAN_HFCLK.o .\CortexM0\ARM_GCC_541\Debug\UART_SCBCLK.o .\CortexM0\ARM_GCC_541\Debug\UART_tx.o .\CortexM0\ARM_GCC_541\Debug\UART_tx_PM.o .\CortexM0\ARM_GCC_541\Debug\UART_rx.o .\CortexM0\ARM_GCC_541\Debug\UART_rx_PM.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyDMA.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
-arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\Motor_Board_Rev3.a
-arm-none-eabi-gcc.exe -Wl,--start-group -o "C:\Users\csgor\Documents\Firmware Projects\PSOC Motorboard\Motor-Unit-Firmware-A-2019-2020\Motor Unit\Motor_Board_Rev3.cydsn\CortexM0\ARM_GCC_541\Debug\Motor_Board_Rev3.elf" .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\Motor_Unit_CAN.o .\CortexM0\ARM_GCC_541\Debug\Motor_Unit_FSM.o .\CortexM0\ARM_GCC_541\Debug\MotorDrive.o .\CortexM0\ARM_GCC_541\Debug\PositionPID.o .\CortexM0\ARM_GCC_541\Debug\LED_Array.o .\CortexM0\ARM_GCC_541\Debug\CANCommon.o .\CortexM0\ARM_GCC_541\Debug\CANMotorUnit.o .\CortexM0\ARM_GCC_541\Debug\CANPacket.o .\CortexM0\ARM_GCC_541\Debug\PortPSOC_CY8C4248AZI_L485.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\Motor_Board_Rev3.a -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/Motor_Board_Rev3.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
-cyelftool.exe -C "C:\Users\csgor\Documents\Firmware Projects\PSOC Motorboard\Motor-Unit-Firmware-A-2019-2020\Motor Unit\Motor_Board_Rev3.cydsn\CortexM0\ARM_GCC_541\Debug\Motor_Board_Rev3.elf" --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
-No ELF section .cychecksum found, creating one
-Application checksum calculated and stored in ELF section .cychecksum
-Checksum calculated and stored in ELF section .cymeta
-cyelftool.exe -S "C:\Users\csgor\Documents\Firmware Projects\PSOC Motorboard\Motor-Unit-Firmware-A-2019-2020\Motor Unit\Motor_Board_Rev3.cydsn\CortexM0\ARM_GCC_541\Debug\Motor_Board_Rev3.elf"
-Flash used: 16726 of 262144 bytes (6.4%).
-SRAM used: 3112 of 32768 bytes (9.5%). Stack: 2048 bytes. Heap: 128 bytes.
---------------- Build Succeeded: 10/23/2021 13:20:32 ---------------
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Build Failed: 06/01/2022 21:02:26 ---------------

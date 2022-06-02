@@ -11,7 +11,7 @@
 //Essentials
 #include "CANPacket.h"
 #include "CANCommon.h"
-#include "Port.h"
+#include "..\..\HindsightCAN\Port.h"
 
 //Board specifics
 #include "CANGPIO.h"

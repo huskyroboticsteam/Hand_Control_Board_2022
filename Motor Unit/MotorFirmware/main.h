@@ -15,7 +15,6 @@
     #include "../CANLib/CANLibrary.h"
     #include "cyapicallbacks.h"
     #include <stdint.h>
-    #include "project.h"
             
         #define LED_ON  0
         #define LED_OFF 1
@@ -43,8 +42,8 @@
         #define TX_DATA_SIZE            (100u)
 
         //Status and Data Structs
-        CANPacket can_recieve;
-        CANPacket can_send;
+        //CANPacket can_recieve;
+        //CANPacket can_send;
         
         //void check_Pin(void);
             struct Error
