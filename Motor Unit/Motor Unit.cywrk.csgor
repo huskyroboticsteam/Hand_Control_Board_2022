@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Motor Unit\Motor_Board_Hand_Firmware">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Motor Unit\Motor_Board_Hand_Firmware\Header Files\main.h">
 <ExpandedNodeIds>
 <v>Motor Unit</v>
 <v>Motor Unit\Blink Rev 3 Debug\TopDesign</v>
@@ -30,7 +30,6 @@
 <v>Motor Unit\Blink Rev 3 Debug\Header Files\cyapicallbacks.h</v>
 <v>Motor Unit\Blink Rev 3 Debug\Source Files</v>
 <v>Motor Unit\Blink Rev 3 Debug\Source Files\main.c</v>
-<v>Motor Unit\Blink Rev 3 Debug\Generated_Source</v>
 <v>Motor Unit\Blink Rev 3 Debug\Generated_Source\PSoC4</v>
 <v>Motor Unit\CAN_Basic_P4_Example01\TopDesign</v>
 <v>Motor Unit\CAN_Basic_P4_Example01\CAN_Basic_P4_Example01.cydwr</v>
@@ -197,7 +196,6 @@
 <v>Motor Unit\Motor_Board_Hand_Firmware\CAN Library\CANPower.h</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\CAN Library\CANScience.c</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\CAN Library\CANScience.h</v>
-<v>Motor Unit\Motor_Board_Hand_Firmware\CAN Library\CANSerialNumbers.h</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\CAN Library\Port.h</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\CAN Library\PortPSOC_CY8C4248AZI_L485.c</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\Header Files</v>
@@ -219,6 +217,7 @@
 <v>Motor Unit\Motor_Board_Hand_Firmware\Source Files\MotorDrive.c</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\Source Files\PCA9685.c</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\Source Files\PositionPID.c</v>
+<v>Motor Unit\Motor_Board_Hand_Firmware\Generated_Source</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\Generated_Source\PSoC4</v>
 <v>Motor Unit\Motor_Board_Rev3\TopDesign</v>
 <v>Motor Unit\Motor_Board_Rev3\Motor_Board_Rev3.cydwr</v>
@@ -266,8 +265,8 @@
 <v>Motor Unit\Motor_Board_Rev3\Source Files\PositionPID.c</v>
 <v>Motor Unit\Motor_Board_Rev3\Generated_Source</v>
 <v>Motor Unit\Motor_Board_Rev3\Generated_Source\PSoC4</v>
-<v>Motor Unit\Motor_Board_Rev3_CAN_Send</v>
 <v>Motor Unit\Motor_Board_Rev3_CAN_Send\TopDesign</v>
+<v>Motor Unit\Motor_Board_Rev3_CAN_Send\Motor_Board_Rev3_CAN_Send.cydwr</v>
 <v>Motor Unit\Motor_Board_Rev3_CAN_Send\Motor_Board_Rev3_CAN_Send.cydwr\Pins</v>
 <v>Motor Unit\Motor_Board_Rev3_CAN_Send\Motor_Board_Rev3_CAN_Send.cydwr\Analog</v>
 <v>Motor Unit\Motor_Board_Rev3_CAN_Send\Motor_Board_Rev3_CAN_Send.cydwr\DMA</v>
@@ -308,6 +307,7 @@
 <v>Motor Unit\Motor_Board_Rev3_CAN_Send\Source Files\MotorDrive.c</v>
 <v>Motor Unit\Motor_Board_Rev3_CAN_Send\Source Files\PositionPID.c</v>
 <v>Motor Unit\Motor_Board_Rev3_CAN_Send\Generated_Source</v>
+<v>Motor Unit\Motor_Board_Rev3_CAN_Send\Generated_Source\PSoC4</v>
 <v>Motor Unit\Motor_Board_Rev3_CAN_Send_Copy_01\TopDesign</v>
 <v>Motor Unit\Motor_Board_Rev3_CAN_Send_Copy_01\Motor_Board_Rev3_CAN_Send_Copy_01.cydwr</v>
 <v>Motor Unit\Motor_Board_Rev3_CAN_Send_Copy_01\Motor_Board_Rev3_CAN_Send_Copy_01.cydwr\Pins</v>
@@ -389,10 +389,10 @@
 <v>Motor Unit\Motor_Board_Hand_Firmware\CAN Library\CANPower.h</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\CAN Library\CANScience.c</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\CAN Library\CANScience.h</v>
-<v>Motor Unit\Motor_Board_Hand_Firmware\CAN Library\CANSerialNumbers.h</v>
+<v>Motor Unit\Motor_Board_Hand_Firmware\CAN Library\Port.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Motor Unit">
 <ExpandedNodeIds>
 <v>Motor Unit</v>
 <v>Motor Unit\Blink Rev 3 Debug</v>
@@ -1012,36 +1012,40 @@
 <VisibleNodeIds>
 <v>Motor Unit</v>
 <v>Motor Unit\Blink Rev 3 Debug</v>
+<v>Motor Unit\Blink Rev 3 Debug\Blink Rev 3 Debug.gpdsc</v>
 <v>Motor Unit\Blink Rev 3 Debug\Blink Rev 3 Debug.rpt</v>
 <v>Motor Unit\Blink Rev 3 Debug\Blink Rev 3 Debug_timing.html</v>
 <v>Motor Unit\CAN_Basic_P4_Example01</v>
+<v>Motor Unit\CAN_Basic_P4_Example01\CAN_Basic_P4_Example01.gpdsc</v>
 <v>Motor Unit\CAN_Basic_P4_Example01\CAN_Basic_P4_Example01.rpt</v>
 <v>Motor Unit\CAN_Basic_P4_Example01\CAN_Basic_P4_Example01_timing.html</v>
 <v>Motor Unit\Motor Board Rev1</v>
+<v>Motor Unit\Motor Board Rev1\Motor Board Rev1.gpdsc</v>
 <v>Motor Unit\Motor Board Rev1\Motor Board Rev1.rpt</v>
 <v>Motor Unit\Motor Board Rev1\Motor Board Rev1_timing.html</v>
 <v>Motor Unit\Motor Board Rev1_old_firmware</v>
+<v>Motor Unit\Motor Board Rev1_old_firmware\Motor Board Rev1_old_firmware.gpdsc</v>
 <v>Motor Unit\Motor Board Rev1_old_firmware\Motor Board Rev1_old_firmware.rpt</v>
 <v>Motor Unit\Motor Board Rev1_old_firmware\Motor Board Rev1_old_firmware_timing.html</v>
 <v>Motor Unit\Motor Board Rev2</v>
+<v>Motor Unit\Motor Board Rev2\Motor Board Rev2.gpdsc</v>
 <v>Motor Unit\Motor Board Rev2\Motor Board Rev2.rpt</v>
 <v>Motor Unit\Motor Board Rev2\Motor Board Rev2_timing.html</v>
 <v>Motor Unit\Motor Board Rev2_old_firmware</v>
+<v>Motor Unit\Motor Board Rev2_old_firmware\Motor Board Rev2_old_firmware.gpdsc</v>
 <v>Motor Unit\Motor Board Rev2_old_firmware\Motor Board Rev2_old_firmware.rpt</v>
 <v>Motor Unit\Motor Board Rev2_old_firmware\Motor Board Rev2_old_firmware_timing.html</v>
 <v>Motor Unit\Motor Board Rev3 old firmware</v>
+<v>Motor Unit\Motor Board Rev3 old firmware\Motor Board Rev3 old firmware.gpdsc</v>
 <v>Motor Unit\Motor Board Rev3 old firmware\Motor Board Rev3 old firmware.rpt</v>
 <v>Motor Unit\Motor Board Rev3 old firmware\Motor Board Rev3 old firmware_timing.html</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware</v>
-<<<<<<< HEAD
-=======
 <v>Motor Unit\Motor_Board_Hand_Firmware\CortexM0</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\CortexM0\ARM_GCC_541</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\CortexM0\ARM_GCC_541\Debug</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_1.lst</v>
 <v>Motor Unit\Motor_Board_Hand_Firmware\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_SAR_Seq_1_INT.lst</v>
->>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -1049,7 +1053,7 @@
 <v>Datasheet</v>
 </TreeKeysV2>
 <TreeStatesV2>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Motor Unit">
 <ExpandedNodeIds>
 <v>Motor Unit</v>
 <v>Motor Unit\Blink Rev 3 Debug</v>
@@ -1404,39 +1408,22 @@
 <indicators />
 </CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
 </dataGuid>
-<dataGuid v="6c335137-fa19-46ce-bc2d-2fbeb6d5f2a2">
-<CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2 type_name="CyDesigner.Common.ProjMgmt.GUI.CyDependenciesCustomData" version="1">
-<dictName v=".\Motor_Board_Rev3_CAN_Send_Copy_01.cydsn\Motor_Board_Rev3_CAN_Send_Copy_01.cyprj">
-<listName />
-</dictName>
-</CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2>
-</dataGuid>
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<<<<<<< HEAD
-<name v=".\MotorFirmware\MotorDrive.c" />
-<name v=".\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cydwr" />
-=======
-<name v=".\MotorFirmware\main.c" />
-<name v=".\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cydwr" />
-<name v=".\MotorFirmware\MotorDrive.c" />
-<name v=".\MotorFirmware\Motor_Unit_CAN.c" />
 <name v=".\CANLib\CANPacket.c" />
-<name v=".\CANLib\CANGPIO.c" />
-<name v=".\MotorFirmware\Motor_Unit_FSM.c" />
-<name v=".\MotorFirmware\main.h" />
-<name v=".\MotorFirmware\MotorDrive.h" />
-<name v=".\MotorFirmware\Motor_Unit_CAN.h" />
-<name v=".\CANLib\CANCommon.h" />
-<name v=".\MotorFirmware\PositionPID.h" />
-<name v=".\MotorFirmware\PositionPID.c" />
-<name v=".\MotorFirmware\Motor_Unit_FSM.h" />
-<name v=".\MotorFirmware\Motor_Unit_Debug.h" />
+<name v="..\HindsightCAN\CANPacket.h" />
+<name v=".\CANLib\CANLibrary.h" />
+<name v="..\HindsightCAN\Port.h" />
 <name v=".\Motor_Board_Hand_Firmware.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\MotorFirmware\main.c" />
 <name v=".\PCA9685.c" />
->>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+<name v=".\MotorFirmware\Motor_Unit_CAN.c" />
+<name v=".\MotorFirmware\Motor_Unit_FSM.c" />
+<name v=".\MotorFirmware\MotorDrive.c" />
+<name v=".\MotorFirmware\MotorDrive.h" />
+<name v=".\MotorFirmware\PCA9685.h" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -1444,11 +1431,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
-<<<<<<< HEAD
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1101, 423" SelectedTabbedMdiWindow="b3112ee8-dc08-4ccf-a948-82f221c85320"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="9e57d4da-e65a-4779-b744-15c954fd1afb" /><DocumentWindow Key="C:\Users\sadbu\Downloads\ddfsdf\Husky Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\MotorDrive.c" Guid="4b3410c8-0815-4a57-842d-68527caf0632" /><DocumentWindow Key="C:\Users\sadbu\Downloads\ddfsdf\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cydwr" Guid="b3112ee8-dc08-4ccf-a948-82f221c85320" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
-=======
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1101, 423" SelectedTabbedMdiWindow="359ce695-bb49-4e05-8eab-1b84feb02ed9"><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\main.c" Guid="f6bcc68c-5ec0-4d7f-80ef-562098308c3c" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cydwr" Guid="359ce695-bb49-4e05-8eab-1b84feb02ed9" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\MotorDrive.c" Guid="2f3735dc-2c07-4b3b-b35b-304260ff62e2" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\Motor_Unit_CAN.c" Guid="80b93920-d8df-497d-9891-9c553d863bc0" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\CANLib\CANPacket.c" Guid="48cd02f4-1eb5-4cf6-8081-5c8931051281" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\CANLib\CANGPIO.c" Guid="6b7c99bf-100e-48ec-b8af-3d2018942740" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\Motor_Unit_FSM.c" Guid="4dfe681c-51f8-4fa3-967d-235e775200ee" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="9e57d4da-e65a-4779-b744-15c954fd1afb" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\main.h" Guid="bdc0a848-aa9b-4f78-8b9a-8aed0d0e5c69" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\MotorDrive.h" Guid="acfd3d15-25f3-4df3-9d33-45891dffa9d7" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\Motor_Unit_CAN.h" Guid="e2bee444-2060-4492-865f-d88ea7a89c8d" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\CANLib\CANCommon.h" Guid="f8d8b893-e867-4ad6-9588-98c43c57e728" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\PositionPID.h" Guid="5fac2529-8c6d-46ce-ab9b-eb095d3f0ae4" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\PositionPID.c" Guid="67da7233-6923-4386-b2c9-c0a6819d4732" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\Motor_Unit_FSM.h" Guid="01f18e1c-26a7-4476-9b7a-8713c0109d96" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\Motor_Unit_Debug.h" Guid="5b6e007a-6749-4df4-8f1c-4cec30dda669" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\TopDesign\TopDesign.cysch" Guid="b13d21a4-cc70-475a-bdad-b8d1b8a56dc2" /><DocumentWindow Key="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\PCA9685.c" Guid="7de473e3-1d3f-42f9-a152-6984301ed909" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
->>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1078, 343" SelectedTabbedMdiWindow="fec1c325-d75d-4ce9-88f1-8ba5702c205a"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="b9e7b16a-be2d-402c-9e5b-27ae77e91506" /><DocumentWindow Key="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\CANLib\CANPacket.c" Guid="53ad7732-1b91-4bfd-8e69-256a091b0694" /><DocumentWindow Key="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\HindsightCAN\CANPacket.h" Guid="12c42167-c805-46c0-a378-d83aaf2d1352" /><DocumentWindow Key="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\CANLib\CANLibrary.h" Guid="3660e44b-5f40-42c0-b852-f88c63ca497c" /><DocumentWindow Key="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\HindsightCAN\Port.h" Guid="0bf48054-ae8d-4f3b-b8aa-bf4c1c24f0eb" /><DocumentWindow Key="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\TopDesign\TopDesign.cysch" Guid="2dddfd45-7385-4e5d-8a94-268f74b79f45" /><DocumentWindow Key="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\main.c" Guid="cfb44353-d4ab-4250-97a0-d2d7f2e7b523" /><DocumentWindow Key="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\PCA9685.c" Guid="5726e7e9-92b3-4a19-8190-450ec189bb2a" /><DocumentWindow Key="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\Motor_Unit_CAN.c" Guid="deef42b6-2a7a-4b1a-9348-1d36c073d8e1" /><DocumentWindow Key="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\Motor_Unit_FSM.c" Guid="70737886-f6fa-4299-bb41-d2826bb98ce1" /><DocumentWindow Key="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\MotorDrive.c" Guid="fec1c325-d75d-4ce9-88f1-8ba5702c205a" /><DocumentWindow Key="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\MotorDrive.h" Guid="d1a9e698-3244-43e6-83ce-662984941a6f" /><DocumentWindow Key="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\MotorFirmware\PCA9685.h" Guid="d96049cf-514a-43cd-a36a-b33df794a6cd" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

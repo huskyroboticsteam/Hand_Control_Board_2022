@@ -25,7 +25,15 @@
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
   </Toolchains>
+<<<<<<< HEAD
   <Project Name="Motor_Board_Hand_Firmware" Path="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" Version="5.70" Type="Normal">
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Export/PSoCCreatorExportIDE.xml
+  <Project Name="Motor_Board_Hand_Firmware" Path="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn" Version="5.70" Type="Normal">
+========
+  <Project Name="Motor_Board_Hand_Firmware" Path="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" Version="5.70" Type="Normal">
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Export/PSoCCreatorExportIDE.xml
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
     <CMSIS_SVD_File>Motor_Board_Hand_Firmware.svd</CMSIS_SVD_File>
     <Datasheet />
     <LinkerFiles>
@@ -34,8 +42,18 @@
       <LinkerFile Toolchain="ARM IAR Generic">.\Generated_Source\PSoC4\Cm0Iar.icf</LinkerFile>
     </LinkerFiles>
     <Folders>
+<<<<<<< HEAD
       <Folder BuildType="STRICT" Path="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn">
         <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn">
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Export/PSoCCreatorExportIDE.xml
+      <Folder BuildType="STRICT" Path="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn">
+        <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn">
+========
+      <Folder BuildType="STRICT" Path="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn">
+        <Files Root="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn">
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Export/PSoCCreatorExportIDE.xml
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <File BuildType="BUILD" Toolchain="">..\MotorFirmware\main.c</File>
           <File BuildType="BUILD" Toolchain="">..\MotorFirmware\Motor_Unit_CAN.c</File>
           <File BuildType="BUILD" Toolchain="">..\MotorFirmware\Motor_Unit_FSM.c</File>
@@ -67,6 +85,7 @@
           <File BuildType="BUILD" Toolchain="">..\CANLib\CANPower.h</File>
           <File BuildType="BUILD" Toolchain="">..\CANLib\CANScience.c</File>
           <File BuildType="BUILD" Toolchain="">..\CANLib\CANScience.h</File>
+<<<<<<< HEAD
           <File BuildType="BUILD" Toolchain="">..\..\HindsightCAN\CANSerialNumbers.h</File>
           <File BuildType="BUILD" Toolchain="">..\..\HindsightCAN\Port.h</File>
           <File BuildType="BUILD" Toolchain="">..\..\HindsightCAN\PortFiles\PortPSOC_CY8C4248AZI_L485.c</File>
@@ -75,6 +94,20 @@
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Generated_Source\PSoC4">
         <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn">
+=======
+          <File BuildType="BUILD" Toolchain="">..\CANLib\PortFiles\PortPSOC_CY8C4248AZI_L485.c</File>
+          <File BuildType="BUILD" Toolchain="">..\..\HindsightCAN\Port.h</File>
+          <File BuildType="BUILD" Toolchain="">..\..\HindsightCAN\CANPacket.h</File>
+        </Files>
+      </Folder>
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Export/PSoCCreatorExportIDE.xml
+      <Folder BuildType="STRICT" Path="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\Generated_Source\PSoC4">
+        <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn">
+========
+      <Folder BuildType="STRICT" Path="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Generated_Source\PSoC4">
+        <Files Root="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn">
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Export/PSoCCreatorExportIDE.xml
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitter_cfg.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitter_cfg.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cymetadata.c</File>
@@ -305,6 +338,7 @@
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">
+<<<<<<< HEAD
         <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_441">
@@ -333,6 +367,67 @@
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM7">
         <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" />
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Export/PSoCCreatorExportIDE.xml
+        <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_441">
+        <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_473">
+        <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\DP8051_Keil_952">
+        <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\DP8051">
+        <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\CortexM0">
+        <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\CortexM0p">
+        <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\CortexM3">
+        <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\CortexM4">
+        <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\CortexM7">
+        <Files Root="C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn" />
+========
+        <Files Root="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_441">
+        <Files Root="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_473">
+        <Files Root="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\DP8051_Keil_952">
+        <Files Root="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\DP8051">
+        <Files Root="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\CortexM0">
+        <Files Root="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\CortexM0p">
+        <Files Root="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\CortexM3">
+        <Files Root="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\CortexM4">
+        <Files Root="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" />
+      </Folder>
+      <Folder BuildType="EXCLUDE" Path=".\CortexM7">
+        <Files Root="C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn" />
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Export/PSoCCreatorExportIDE.xml
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
       </Folder>
     </Folders>
   </Project>

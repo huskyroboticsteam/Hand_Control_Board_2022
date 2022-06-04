@@ -126,7 +126,6 @@
 <dep name="..\CANLib\CANLibrary.h" />
 <dep name="..\MotorFirmware\MotorDrive.c" />
 <dep name="..\MotorFirmware\MotorDrive.h" />
-<dep name="..\MotorFirmware\PCA9685.h" />
 <dep name="..\MotorFirmware\main.h" />
 <dep name=".\cyapicallbacks.h" />
 </file>
@@ -244,7 +243,6 @@
 <file name="..\CANLib\CANLibrary.h" />
 <file name="..\MotorFirmware\MotorDrive.c" />
 <file name="..\MotorFirmware\MotorDrive.h" />
-<file name="..\MotorFirmware\PCA9685.h" />
 <file name="..\MotorFirmware\main.h" />
 <file name=".\cyapicallbacks.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Motor_Unit_CAN.o">
@@ -612,7 +610,6 @@
 <dep name="..\MotorFirmware\Motor_Unit_CAN.h" />
 <dep name="..\MotorFirmware\Motor_Unit_Debug.h" />
 <dep name="..\MotorFirmware\Motor_Unit_FSM.h" />
-<dep name="..\MotorFirmware\PCA9685.h" />
 <dep name="..\MotorFirmware\PositionPID.h" />
 <dep name="..\MotorFirmware\main.c" />
 <dep name="..\MotorFirmware\main.h" />
@@ -2462,8 +2459,15 @@
 <dep name="..\MotorFirmware\PCA9685.h" />
 <dep name=".\cyapicallbacks.h" />
 <dep name="..\PCA9685.c" />
+<<<<<<< HEAD
 </file>
 <file name="..\PCA9685.c" />
+=======
+<dep name="..\PCA9685.h" />
+</file>
+<file name="..\PCA9685.c" />
+<file name="..\PCA9685.h" />
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 <file name=".\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o">
 <dep name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <dep name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
@@ -2472,7 +2476,11 @@
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
+<<<<<<< HEAD
 <file name="..\PCA9685.h" />
+=======
+<file name="..\MotorFirmware\PCA9685.h" />
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 <file name=".\CortexM0\ARM_GCC_541\Debug\CANCommon.o">
 <dep name="..\..\HindsightCAN\CANPacket.h" />
 <dep name="..\..\HindsightCAN\CANSerialNumbers.h" />
@@ -2815,7 +2823,10 @@
 <name_val_pair name="Generated_Source\PSoC4\I2C_1_scl.c" v="-mcpu=cortex-m0 -mthumb -I..\..\HindsightCAN -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -D CHIP_TYPE=CHIP_TYPE_PSOC_CY8C4248AZI_L485 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="Generated_Source\PSoC4\I2C_1_scl_PM.c" v="-mcpu=cortex-m0 -mthumb -I..\..\HindsightCAN -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -D CHIP_TYPE=CHIP_TYPE_PSOC_CY8C4248AZI_L485 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="Generated_Source\PSoC4\I2C_1_SCB_IRQ.c" v="-mcpu=cortex-m0 -mthumb -I..\..\HindsightCAN -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -D CHIP_TYPE=CHIP_TYPE_PSOC_CY8C4248AZI_L485 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<<<<<<< HEAD
 <name_val_pair name="C:\Users\sadbu\Downloads\ddfsdf\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\CortexM0\ARM_GCC_541\Debug\Motor_Board_Hand_Firmware.hex" v="-mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects" />
+=======
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 </name>
 </genericCmdLineData>
 <codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\sadbu\AppData\Local\Cypress Semiconductor\PSoC Creator\4.4&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p &quot;C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj&quot; -d CY8C4248AZI-L485 -s &quot;C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Generated_Source\PSoC4&quot; -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
@@ -3579,7 +3590,11 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
+<<<<<<< HEAD
 <deps_time v="132988544709134888" />
+=======
+<deps_time v="132986122033887379" />
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 <top_block v="TopDesign" />
 <last_generation v="11" />
 <pdl_path v="" />
@@ -3589,7 +3604,11 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
+<<<<<<< HEAD
 <name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="132988546175661623" />
+=======
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="132986142912461434" />
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
