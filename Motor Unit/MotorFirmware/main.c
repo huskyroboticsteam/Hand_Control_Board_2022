@@ -97,13 +97,19 @@ CY_ISR(Pin_Limit_Handler){
 
 int main(void)
 { 
+<<<<<<< HEAD
+=======
     pca_init();
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
     Initialize();
     #ifdef RGB_LED_ARRAY
     StripLights_DisplayClear(StripLights_BLACK);
     #endif
     for(;;)
     {
+        for (int i = 0; i <= 15; i++) {
+        setPWMFromDutyCycle(i, 75);
+        }   
         switch(GetState()) {
             case(UNINIT):
                 //idle animation
@@ -156,6 +162,8 @@ void Initialize(void) {
     #ifdef RGB_LED_ARRAY
     initalize_LEDs(LOW_LED_POWER);
     #endif
+    
+    pca_init();
     
     Status_Reg_Switches_InterruptEnable();
     

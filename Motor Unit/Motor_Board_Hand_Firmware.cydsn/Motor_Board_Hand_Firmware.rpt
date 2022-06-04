@@ -1,4 +1,32 @@
+<<<<<<< HEAD
 Loading plugins phase: Elapsed time ==> 0s.200ms
+=======
+<<<<<<< HEAD
+Loading plugins phase: Elapsed time ==> 0s.193ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -d CY8C4248AZI-L485 -s C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 2s.201ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.110ms
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Loading plugins phase: Elapsed time ==> 0s.244ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -d CY8C4248AZI-L485 -s C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 3s.373ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.145ms
+========
+Loading plugins phase: Elapsed time ==> 0s.374ms
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -d CY8C4248AZI-L485 -s C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 </CYPRESSTAG>
@@ -7,7 +35,13 @@ cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabd
 Elaboration phase: Elapsed time ==> 2s.232ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
+<<<<<<< HEAD
 HDL generation phase: Elapsed time ==> 0s.117ms
+=======
+HDL generation phase: Elapsed time ==> 0s.229ms
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -25,23 +59,71 @@ HDL generation phase: Elapsed time ==> 0s.117ms
 ======================================================================
 Compiling:  Motor_Board_Hand_Firmware.v
 Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
+<<<<<<< HEAD
 Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 Motor_Board_Hand_Firmware.v -verilog
+=======
+<<<<<<< HEAD
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 Motor_Board_Hand_Firmware.v -verilog
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 Motor_Board_Hand_Firmware.v -verilog
+========
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 Motor_Board_Hand_Firmware.v -verilog
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 ======================================================================
 
 ======================================================================
 Compiling:  Motor_Board_Hand_Firmware.v
 Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
+<<<<<<< HEAD
 Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 Motor_Board_Hand_Firmware.v -verilog
+=======
+<<<<<<< HEAD
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 Motor_Board_Hand_Firmware.v -verilog
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 Motor_Board_Hand_Firmware.v -verilog
+========
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 Motor_Board_Hand_Firmware.v -verilog
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 ======================================================================
 
 ======================================================================
 Compiling:  Motor_Board_Hand_Firmware.v
 Program  :   vlogfe
+<<<<<<< HEAD
 Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 -verilog Motor_Board_Hand_Firmware.v
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
 Sat Jun 04 15:33:33 2022
+=======
+<<<<<<< HEAD
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 -verilog Motor_Board_Hand_Firmware.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Sat Jun 04 15:14:20 2022
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 -verilog Motor_Board_Hand_Firmware.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Sat May 28 14:04:53 2022
+========
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 -verilog Motor_Board_Hand_Firmware.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Wed Jun 01 21:51:42 2022
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 
 
 ======================================================================
@@ -51,7 +133,19 @@ Options  :    -yv2 -q10 Motor_Board_Hand_Firmware.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
+<<<<<<< HEAD
 Sat Jun 04 15:33:33 2022
+=======
+<<<<<<< HEAD
+Sat Jun 04 15:14:20 2022
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Sat May 28 14:04:53 2022
+========
+Wed Jun 01 21:51:42 2022
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'
@@ -70,7 +164,15 @@ Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\wa
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\demux_v1_10\demux_v1_10.v'
+<<<<<<< HEAD
 Flattening file 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v'
+=======
+<<<<<<< HEAD
+Flattening file 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v'
+=======
+Flattening file 'C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v'
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'
@@ -94,7 +196,19 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Using control file 'Motor_Board_Hand_Firmware.ctl'.
+<<<<<<< HEAD
 C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v (line 165, col 50):  Note: Substituting module 'add_vv_vv' for '+'.
+=======
+<<<<<<< HEAD
+C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v (line 165, col 50):  Note: Substituting module 'add_vv_vv' for '+'.
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v (line 165, col 50):  Note: Substituting module 'add_vv_vv' for '+'.
+========
+C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v (line 165, col 50):  Note: Substituting module 'add_vv_vv' for '+'.
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_Timer_v2_80\B_Timer_v2_80.v (line 368, col 46):  Note: Substituting module 'cmp_vv_vv' for '='.
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_Timer_v2_80\B_Timer_v2_80.v (line 374, col 62):  Note: Substituting module 'add_vv_vv' for '+'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
@@ -106,11 +220,35 @@ vlogfe:  No errors.
 ======================================================================
 Compiling:  Motor_Board_Hand_Firmware.v
 Program  :   tovif
+<<<<<<< HEAD
 Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 -verilog Motor_Board_Hand_Firmware.v
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
 Sat Jun 04 15:33:33 2022
+=======
+<<<<<<< HEAD
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 -verilog Motor_Board_Hand_Firmware.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Sat Jun 04 15:14:20 2022
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 -verilog Motor_Board_Hand_Firmware.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Sat May 28 14:04:53 2022
+========
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 -verilog Motor_Board_Hand_Firmware.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Wed Jun 01 21:51:43 2022
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -121,9 +259,27 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+<<<<<<< HEAD
 Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.ctl'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
 Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.v'.
+=======
+<<<<<<< HEAD
+Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.v'.
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.v'.
+========
+Linking 'C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.v'.
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_Counter_v3_0\B_Counter_v3_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.v'.
@@ -136,7 +292,15 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\conte
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\demux_v1_10\demux_v1_10.v'.
+<<<<<<< HEAD
 Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v'.
+=======
+<<<<<<< HEAD
+Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v'.
+=======
+Linking 'C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v'.
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Bus_Connect_v2_50\Bus_Connect_v2_50.v'.
@@ -151,11 +315,35 @@ tovif:  No errors.
 ======================================================================
 Compiling:  Motor_Board_Hand_Firmware.v
 Program  :   topld
+<<<<<<< HEAD
 Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 -verilog Motor_Board_Hand_Firmware.v
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
 Sat Jun 04 15:33:34 2022
+=======
+<<<<<<< HEAD
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 -verilog Motor_Board_Hand_Firmware.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Sat Jun 04 15:14:21 2022
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 -verilog Motor_Board_Hand_Firmware.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Sat May 28 14:04:55 2022
+========
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -dcpsoc3 -verilog Motor_Board_Hand_Firmware.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Wed Jun 01 21:51:45 2022
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -166,9 +354,27 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+<<<<<<< HEAD
 Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.ctl'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
 Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.v'.
+=======
+<<<<<<< HEAD
+Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.v'.
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.v'.
+========
+Linking 'C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\codegentemp\Motor_Board_Hand_Firmware.v'.
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_Counter_v3_0\B_Counter_v3_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.v'.
@@ -181,7 +387,15 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\conte
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\demux_v1_10\demux_v1_10.v'.
+<<<<<<< HEAD
 Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v'.
+=======
+<<<<<<< HEAD
+Linking 'C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v'.
+=======
+Linking 'C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\FunWithLEDs\StripLightLib.cylib\B_WS2811_v1_3\B_WS2811_v1_3.v'.
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Bus_Connect_v2_50\Bus_Connect_v2_50.v'.
@@ -730,7 +944,35 @@ topld:  No errors.
 
 CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
+<<<<<<< HEAD
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj" -dcpsoc3 Motor_Board_Hand_Firmware.v -verilog
+=======
+<<<<<<< HEAD
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj" -dcpsoc3 Motor_Board_Hand_Firmware.v -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 2s.002ms
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V4.4.0.80, Family: PSoC3, Started at: Saturday, 04 June 2022 15:14:22
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -d CY8C4248AZI-L485 Motor_Board_Hand_Firmware.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.079ms
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj" -dcpsoc3 Motor_Board_Hand_Firmware.v -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 3s.272ms
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V4.4.0.80, Family: PSoC3, Started at: Saturday, 28 May 2022 14:04:55
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit - Copy\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -d CY8C4248AZI-L485 Motor_Board_Hand_Firmware.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.030ms
+========
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\csgor\Desktop\Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj" -dcpsoc3 Motor_Board_Hand_Firmware.v -verilog
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 </CYPRESSTAG>
 Warp synthesis phase: Elapsed time ==> 2s.028ms
 <CYPRESSTAG name="Fitter results...">
@@ -739,7 +981,13 @@ cyp3fit: V4.4.0.80, Family: PSoC3, Started at: Saturday, 04 June 2022 15:33:35
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\sadbu\Desktop\UW\Husky Robotics\Hand_Control_Board_2022\Motor Unit\Motor_Board_Hand_Firmware.cydsn\Motor_Board_Hand_Firmware.cyprj -d CY8C4248AZI-L485 Motor_Board_Hand_Firmware.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
+<<<<<<< HEAD
 Design parsing phase: Elapsed time ==> 0s.094ms
+=======
+Design parsing phase: Elapsed time ==> 0s.066ms
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -794,8 +1042,15 @@ Done removing unused cells.
 
 Removing unused cells resulting from optimization
 Done removing unused cells.
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+ADD: pft.M0040: information: The following 4 pin(s) will be assigned a location by the fitter: \I2C:scl(0)\, \I2C:sda(0)\, Dip_3(0), Dip_4(0)
+========
 ADD: pft.M0040: information: The following 2 pin(s) will be assigned a location by the fitter: \I2C:scl(0)\, \I2C:sda(0)\
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
 
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 
 Removing unused cells resulting from optimization
 Done removing unused cells.
@@ -1663,6 +1918,12 @@ Design Equations
             pa_out => \I2C:sda(0)\__PA ,
             fb => Net_1566 ,
             pad => \I2C:sda(0)_PAD\ );
+<<<<<<< HEAD
+        Properties:
+        {
+        }
+=======
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 
     Pin : Name = \I2C:scl(0)\
         Attributes:
@@ -1700,6 +1961,12 @@ Design Equations
             pa_out => \I2C:scl(0)\__PA ,
             fb => Net_1565 ,
             pad => \I2C:scl(0)_PAD\ );
+<<<<<<< HEAD
+        Properties:
+        {
+        }
+=======
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 
     Pin : Name = \UART:tx(0)\
         Attributes:
@@ -2997,8 +3264,23 @@ DAC                           :      :      :      :
   7-bit IDAC                  :    0 :    2 :    2 :  0.00 %
   8-bit IDAC                  :    0 :    2 :    2 :  0.00 %
 </CYPRESSTAG>
+<<<<<<< HEAD
 Technology Mapping: Elapsed time ==> 0s.400ms
 Tech Mapping phase: Elapsed time ==> 0s.596ms
+=======
+<<<<<<< HEAD
+Technology Mapping: Elapsed time ==> 0s.319ms
+Tech Mapping phase: Elapsed time ==> 0s.438ms
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Technology Mapping: Elapsed time ==> 0s.232ms
+Tech Mapping phase: Elapsed time ==> 0s.279ms
+========
+Technology Mapping: Elapsed time ==> 0s.382ms
+Tech Mapping phase: Elapsed time ==> 0s.477ms
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 <CYPRESSTAG name="FFB & IO Pre Placement">
@@ -3026,21 +3308,63 @@ Dip_4(0)                            : [IOP=(4)][IoId=(0)]
 CAN_LED(0)                          : [IOP=(2)][IoId=(4)]                
 ERROR_LED(0)                        : [IOP=(2)][IoId=(1)]                
 FAULT_MOTOR(0)                      : [IOP=(4)][IoId=(6)]                
+<<<<<<< HEAD
+\I2C:sda(0)\                        : [IOP=(1)][IoId=(1)]                
+\I2C:scl(0)\                        : [IOP=(1)][IoId=(0)]                
+=======
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 \UART:tx(0)\                        : [IOP=(6)][IoId=(1)]                
 \UART:rx(0)\                        : [IOP=(6)][IoId=(0)]                
 ClockGenBlock                       : CLK_GEN_[FFB(CLK_GEN,0)]           
 \ADC_SAR_Seq_1:cy_psoc4_sar\        : SARADC_[FFB(SARADC,0)]             
 \CAN:CanIP\                         : CAN_[FFB(CAN,1)]                   
+<<<<<<< HEAD
+\I2C:SCB\                           : SCB_[FFB(SCB,0)]                   
+\UART:SCB\                          : SCB_[FFB(SCB,3)]                   
+\PWM_Motor:cy_m0s8_tcpwm_1\         : TCPWM_[FFB(TCPWM,0)]               
+=======
 \UART:SCB\                          : SCB_[FFB(SCB,3)]                   
 \PWM_Motor:cy_m0s8_tcpwm_1\         : TCPWM_[FFB(TCPWM,0)]               
 \I2C:SCB\                           : SCB_[FFB(SCB,0)]                   
 \I2C:sda(0)\                        : [IOP=(1)][IoId=(1)]                
 \I2C:scl(0)\                        : [IOP=(1)][IoId=(0)]                
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Dip_3(0)                            : [IOP=(0)][IoId=(2)]                
+Dip_4(0)                            : [IOP=(0)][IoId=(3)]                
+========
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 
 </CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Real Analog Placement">
+<<<<<<< HEAD
 Elapsed time ==> 0.3762888s
+=======
+<<<<<<< HEAD
+Elapsed time ==> 0.3493287s
+</CYPRESSTAG>
+Analog Placement phase: Elapsed time ==> 0s.823ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Routing">
+<CYPRESSTAG name="Analog Routing">
+Route success=True, Iterations=1 Elapsed=0.0269423 secs
+</CYPRESSTAG>
+Analog Routing phase: Elapsed time ==> 0s.030ms
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Elapsed time ==> 0.6144678s
+</CYPRESSTAG>
+Analog Placement phase: Elapsed time ==> 1s.343ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Routing">
+<CYPRESSTAG name="Analog Routing">
+Route success=True, Iterations=1 Elapsed=0.0040459 secs
+</CYPRESSTAG>
+Analog Routing phase: Elapsed time ==> 0s.004ms
+========
+Elapsed time ==> 0.9331232s
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 </CYPRESSTAG>
 Analog Placement phase: Elapsed time ==> 0s.864ms
 </CYPRESSTAG>
@@ -3048,7 +3372,13 @@ Analog Placement phase: Elapsed time ==> 0s.864ms
 <CYPRESSTAG name="Analog Routing">
 Route success=True, Iterations=1 Elapsed=0.0266758 secs
 </CYPRESSTAG>
+<<<<<<< HEAD
 Analog Routing phase: Elapsed time ==> 0s.032ms
+=======
+Analog Routing phase: Elapsed time ==> 0s.014ms
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -3079,11 +3409,31 @@ Map of item to net {
 }
 Mux Info {
 }
+<<<<<<< HEAD
 Analog Code Generation phase: Elapsed time ==> 0s.054ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
 I2076: Total run-time: 0.8 sec.
+=======
+<<<<<<< HEAD
+Analog Code Generation phase: Elapsed time ==> 0s.050ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Placement">
+<CYPRESSTAG name="Detailed placement messages">
+I2076: Total run-time: 1.1 sec.
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Analog Code Generation phase: Elapsed time ==> 0s.031ms
+========
+Analog Code Generation phase: Elapsed time ==> 0s.043ms
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Placement">
+<CYPRESSTAG name="Detailed placement messages">
+I2076: Total run-time: 2.2 sec.
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
@@ -3101,20 +3451,48 @@ PLD Packing Summary
         PLD Resource Type :     Average/LAB
     =======================================
                    Inputs :            5.94
+<<<<<<< HEAD
+                   Pterms :            5.31
+=======
                    Pterms :            5.38
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
                Macrocells :            2.63
 </CYPRESSTAG>
 <CYPRESSTAG name="Packed PLD Contents">
 Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
 </CYPRESSTAG>
+<<<<<<< HEAD
 PLD Packing: Elapsed time ==> 0s.029ms
+=======
+<<<<<<< HEAD
+PLD Packing: Elapsed time ==> 0s.022ms
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+PLD Packing: Elapsed time ==> 0s.002ms
+========
+PLD Packing: Elapsed time ==> 0s.003ms
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 </CYPRESSTAG>
 <CYPRESSTAG name="Partitioning">
 <CYPRESSTAG name="Initial Partitioning Summary">
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+<<<<<<< HEAD
 Partitioning: Elapsed time ==> 0s.145ms
+=======
+<<<<<<< HEAD
+Partitioning: Elapsed time ==> 0s.111ms
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Partitioning: Elapsed time ==> 0s.056ms
+========
+Partitioning: Elapsed time ==> 0s.137ms
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -3124,7 +3502,11 @@ Final Placement Summary
 
        Resource Type :      Count : Avg Inputs : Avg Outputs
     ========================================================
+<<<<<<< HEAD
+                 UDB :          8 :       9.88 :       5.25
+=======
                  UDB :          8 :       9.25 :       5.25
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 <CYPRESSTAG name="Final Placement Details">
 <CYPRESSTAG name="Component Details">
 
@@ -3132,9 +3514,30 @@ Final Placement Summary
 Component Placement Details
 ------------------------------------------------------------
 UDB [UDB=(0,0)] contents:
+<<<<<<< HEAD
+LAB@[UDB=(0,0)][LB=0] #macrocells=4, #inputs=8, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=Net_1416, Mode=(Combinatorial) @ [UDB=(0,0)][LB=0][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\StripLights:saddr_0\ * !\StripLights:saddr_1\ * 
+              !\StripLights:saddr_2\ * !\StripLights:saddr_3\ * 
+              \StripLights:Net_64\
+        );
+        Output = Net_1416 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\QuadDec:bQuadDec:quad_B_filt\, Mode=(D-Register) @ [UDB=(0,0)][LB=0][MC=1]
+=======
 LAB@[UDB=(0,0)][LB=0] #macrocells=4, #inputs=5, #pterms=4
 {
     [McSlotId=0]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:underflow_reg_i\, Mode=(D-Register) @ [UDB=(0,0)][LB=0][MC=0]
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
@@ -3142,27 +3545,76 @@ LAB@[UDB=(0,0)][LB=0] #macrocells=4, #inputs=5, #pterms=4
             Clock Enable: True
         Main Equation            : 1 pterm
         (
+<<<<<<< HEAD
+              Net_140
+        );
+        Output = \QuadDec:bQuadDec:quad_B_filt\ (fanout=7)
+=======
               \QuadDec:Cnt16:CounterUDB:status_1\
         );
         Output = \QuadDec:Cnt16:CounterUDB:underflow_reg_i\ (fanout=1)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=2]:     MacroCell: Name=Net_527, Mode=(Combinatorial) @ [UDB=(0,0)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_1424
+        );
+        Output = Net_527 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_526, Mode=(Combinatorial) @ [UDB=(0,0)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_1425
+        );
+        Output = Net_526 (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(0,0)][LB=1] #macrocells=2, #inputs=2, #pterms=2
+{
+    [McSlotId=0]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:status_0\, Mode=(Combinatorial) @ [UDB=(0,0)][LB=1][MC=0]
+=======
     [McSlotId=1]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:status_3\, Mode=(Combinatorial) @ [UDB=(0,0)][LB=0][MC=1]
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Total # of inputs        : 2
         Total # of product terms : 1
             Clock Enable: True
         Main Equation            : 1 pterm
         (
+<<<<<<< HEAD
+              \QuadDec:Cnt16:CounterUDB:cmp_out_i\ * 
+              !\QuadDec:Cnt16:CounterUDB:prevCompare\
+        );
+        Output = \QuadDec:Cnt16:CounterUDB:status_0\ (fanout=1)
+=======
               \QuadDec:Cnt16:CounterUDB:status_1\ * 
               !\QuadDec:Cnt16:CounterUDB:underflow_reg_i\
         );
         Output = \QuadDec:Cnt16:CounterUDB:status_3\ (fanout=1)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=1]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:prevCompare\, Mode=(D-Register) @ [UDB=(0,0)][LB=1][MC=1]
+=======
     [McSlotId=2]:     MacroCell: Name=\QuadDec:Net_530\, Mode=(Combinatorial) @ [UDB=(0,0)][LB=0][MC=2]
         Total # of inputs        : 3
         Total # of product terms : 1
@@ -3225,6 +3677,7 @@ LAB@[UDB=(0,0)][LB=1] #macrocells=4, #inputs=4, #pterms=4
         }
 
     [McSlotId=2]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:overflow_reg_i\, Mode=(D-Register) @ [UDB=(0,0)][LB=1][MC=2]
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
@@ -3232,13 +3685,23 @@ LAB@[UDB=(0,0)][LB=1] #macrocells=4, #inputs=4, #pterms=4
             Clock Enable: True
         Main Equation            : 1 pterm
         (
+<<<<<<< HEAD
+              \QuadDec:Cnt16:CounterUDB:cmp_out_i\
+        );
+        Output = \QuadDec:Cnt16:CounterUDB:prevCompare\ (fanout=3)
+=======
               \QuadDec:Cnt16:CounterUDB:overflow\
         );
         Output = \QuadDec:Cnt16:CounterUDB:overflow_reg_i\ (fanout=1)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+=======
     [McSlotId=3]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:status_2\, Mode=(Combinatorial) @ [UDB=(0,0)][LB=1][MC=3]
         Total # of inputs        : 2
         Total # of product terms : 1
@@ -3252,6 +3715,7 @@ LAB@[UDB=(0,0)][LB=1] #macrocells=4, #inputs=4, #pterms=4
         Properties               : 
         {
         }
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 }
 
 datapathcell: Name =\QuadDec:Cnt16:CounterUDB:sC16:counterdp:u1\
@@ -3294,6 +3758,66 @@ datapathcell: Name =\QuadDec:Cnt16:CounterUDB:sC16:counterdp:u1\
     Clock Enable: True
     Previous in chain : \QuadDec:Cnt16:CounterUDB:sC16:counterdp:u0\
 
+<<<<<<< HEAD
+statuscell: Name =\Can_addr:sts:sts_reg\
+    PORT MAP (
+        status_3 => Net_528 ,
+        status_2 => Net_527 ,
+        status_1 => Net_526 ,
+        status_0 => Net_525 );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_md_select = "00000000"
+    }
+    Clock Enable: True
+
+controlcell: Name =\StripLights:StringSel:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \StripLights:StringSel:control_7\ ,
+        control_6 => \StripLights:StringSel:control_6\ ,
+        control_5 => \StripLights:StringSel:control_5\ ,
+        control_4 => \StripLights:StringSel:control_4\ ,
+        control_3 => \StripLights:saddr_3\ ,
+        control_2 => \StripLights:saddr_2\ ,
+        control_1 => \StripLights:saddr_1\ ,
+        control_0 => \StripLights:saddr_0\ );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(0,1)] contents:
+LAB@[UDB=(0,1)][LB=0] #macrocells=3, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\StripLights:B_WS2811:dpAddr_1\, Mode=(D-Register) @ [UDB=(0,1)][LB=0][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (ClockBlock_HFClk) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              \StripLights:B_WS2811:pwmTC\ * 
+              !\StripLights:B_WS2811:bitCount_2\ * 
+              \StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:state_0\
+            + \StripLights:B_WS2811:pwmTC\ * \StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:state_0\ * 
+              !\StripLights:B_WS2811:bitCount_1\
+            + \StripLights:B_WS2811:pwmTC\ * \StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:state_0\ * 
+              !\StripLights:B_WS2811:bitCount_0\
+            + \StripLights:B_WS2811:state_1\ * \StripLights:B_WS2811:state_0\ * 
+              \StripLights:B_WS2811:dpAddr_1\
+        );
+        Output = \StripLights:B_WS2811:dpAddr_1\ (fanout=2)
+=======
 statusicell: Name =\QuadDec:Cnt16:CounterUDB:sSTSReg:stsreg\
     PORT MAP (
         reset => \QuadDec:Net_1260\ ,
@@ -3326,10 +3850,28 @@ LAB@[UDB=(0,1)][LB=0] #macrocells=3, #inputs=3, #pterms=3
               !\QuadDec:Cnt16:CounterUDB:prevCompare\
         );
         Output = \QuadDec:Cnt16:CounterUDB:status_0\ (fanout=1)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=1]:     MacroCell: Name=\StripLights:B_WS2811:bitCount_1\, Mode=(T-Register) @ [UDB=(0,1)][LB=0][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (ClockBlock_HFClk) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              \StripLights:B_WS2811:pwmTC\ * \StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:state_0\ * 
+              \StripLights:B_WS2811:bitCount_0\
+            + !\StripLights:B_WS2811:state_1\ * 
+              \StripLights:B_WS2811:bitCount_1\
+        );
+        Output = \StripLights:B_WS2811:bitCount_1\ (fanout=5)
+=======
     [McSlotId=1]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:prevCompare\, Mode=(D-Register) @ [UDB=(0,1)][LB=0][MC=1]
         Total # of inputs        : 1
         Total # of product terms : 1
@@ -3341,10 +3883,27 @@ LAB@[UDB=(0,1)][LB=0] #macrocells=3, #inputs=3, #pterms=3
               \QuadDec:Cnt16:CounterUDB:cmp_out_i\
         );
         Output = \QuadDec:Cnt16:CounterUDB:prevCompare\ (fanout=3)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=2]:     MacroCell: Name=\StripLights:B_WS2811:bitCount_0\, Mode=(T-Register) @ [UDB=(0,1)][LB=0][MC=2]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (ClockBlock_HFClk) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              \StripLights:B_WS2811:pwmTC\ * \StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:state_0\
+            + !\StripLights:B_WS2811:state_1\ * 
+              \StripLights:B_WS2811:bitCount_0\
+        );
+        Output = \StripLights:B_WS2811:bitCount_0\ (fanout=6)
+=======
     [McSlotId=2]:     MacroCell: Name=Net_525, Mode=(Combinatorial) @ [UDB=(0,1)][LB=0][MC=2]
         Total # of inputs        : 1
         Total # of product terms : 1
@@ -3354,6 +3913,7 @@ LAB@[UDB=(0,1)][LB=0] #macrocells=3, #inputs=3, #pterms=3
               !Net_1427
         );
         Output = Net_525 (fanout=1)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
@@ -3361,9 +3921,29 @@ LAB@[UDB=(0,1)][LB=0] #macrocells=3, #inputs=3, #pterms=3
     [McSlotId=3]: (empty)
 }
 
+<<<<<<< HEAD
+LAB@[UDB=(0,1)][LB=1] #macrocells=2, #inputs=2, #pterms=2
+{
+    [McSlotId=0]:     MacroCell: Name=Net_528, Mode=(Combinatorial) @ [UDB=(0,1)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_1423
+        );
+        Output = Net_528 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=Net_966_1, Mode=(D-Register) @ [UDB=(0,1)][LB=1][MC=2]
+=======
 LAB@[UDB=(0,1)][LB=1] #macrocells=4, #inputs=5, #pterms=4
 {
     [McSlotId=0]:     MacroCell: Name=Net_966_1, Mode=(D-Register) @ [UDB=(0,1)][LB=1][MC=0]
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
@@ -3378,6 +3958,9 @@ LAB@[UDB=(0,1)][LB=1] #macrocells=4, #inputs=5, #pterms=4
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=3]: (empty)
+=======
     [McSlotId=1]:     MacroCell: Name=\Timer_PWM:TimerUDB:status_tc\, Mode=(Combinatorial) @ [UDB=(0,1)][LB=1][MC=1]
         Total # of inputs        : 2
         Total # of product terms : 1
@@ -3418,6 +4001,7 @@ LAB@[UDB=(0,1)][LB=1] #macrocells=4, #inputs=5, #pterms=4
         Properties               : 
         {
         }
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 }
 
 datapathcell: Name =\Timer_PWM:TimerUDB:sT24:timerdp:u2\
@@ -3473,6 +4057,33 @@ statusicell: Name =\Timer_PWM:TimerUDB:rstSts:stsreg\
     Clock Polarity: Active High
     Clock Enable: True
 
+<<<<<<< HEAD
+UDB [UDB=(0,2)] contents:
+LAB@[UDB=(0,2)][LB=0] #macrocells=3, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\StripLights:B_WS2811:state_0\, Mode=(D-Register) @ [UDB=(0,2)][LB=0][MC=0]
+        Total # of inputs        : 9
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (ClockBlock_HFClk) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              \StripLights:B_WS2811:pwmTC\ * 
+              \StripLights:B_WS2811:bitCount_2\ * 
+              \StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:state_0\ * 
+              \StripLights:B_WS2811:bitCount_1\ * 
+              \StripLights:B_WS2811:bitCount_0\
+            + !\StripLights:B_WS2811:control_5\ * 
+              \StripLights:B_WS2811:state_1\ * \StripLights:B_WS2811:state_0\
+            + \StripLights:B_WS2811:control_0\ * 
+              !\StripLights:B_WS2811:status_0\ * 
+              !\StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:state_0\
+        );
+        Output = \StripLights:B_WS2811:state_0\ (fanout=10)
+=======
 controlcell: Name =\Timer_PWM:TimerUDB:sCTRLReg:SyncCtl:ctrlreg\
     PORT MAP (
         clock => Net_1314_digital ,
@@ -3507,10 +4118,33 @@ LAB@[UDB=(0,2)][LB=0] #macrocells=3, #inputs=9, #pterms=3
               !Net_1424
         );
         Output = Net_527 (fanout=1)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=1]:     MacroCell: Name=\StripLights:B_WS2811:state_1\, Mode=(D-Register) @ [UDB=(0,2)][LB=0][MC=1]
+        Total # of inputs        : 9
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (ClockBlock_HFClk) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        !(
+              \StripLights:B_WS2811:pwmTC\ * \StripLights:B_WS2811:control_0\ * 
+              !\StripLights:B_WS2811:status_0\ * 
+              \StripLights:B_WS2811:bitCount_2\ * 
+              !\StripLights:B_WS2811:state_0\ * 
+              \StripLights:B_WS2811:bitCount_1\ * 
+              \StripLights:B_WS2811:bitCount_0\
+            + \StripLights:B_WS2811:control_5\ * 
+              \StripLights:B_WS2811:state_1\ * \StripLights:B_WS2811:state_0\
+            + !\StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:state_0\
+        );
+        Output = \StripLights:B_WS2811:state_1\ (fanout=10)
+=======
     [McSlotId=1]:     MacroCell: Name=Net_1416, Mode=(Combinatorial) @ [UDB=(0,2)][LB=0][MC=1]
         Total # of inputs        : 5
         Total # of product terms : 1
@@ -3522,10 +4156,15 @@ LAB@[UDB=(0,2)][LB=0] #macrocells=3, #inputs=9, #pterms=3
               \StripLights:Net_64\
         );
         Output = Net_1416 (fanout=1)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=2]:     MacroCell: Name=\StripLights:B_WS2811:bitCount_2\, Mode=(T-Register) @ [UDB=(0,2)][LB=0][MC=2]
+        Total # of inputs        : 6
+=======
     [McSlotId=2]: (empty)
     [McSlotId=3]:     MacroCell: Name=Net_1393, Mode=(Combinatorial) @ [UDB=(0,2)][LB=0][MC=3]
         Total # of inputs        : 3
@@ -3562,22 +4201,66 @@ LAB@[UDB=(0,2)][LB=1] #macrocells=4, #inputs=7, #pterms=7
 
     [McSlotId=1]:     MacroCell: Name=\StripLights:B_WS2811:dpAddr_0\, Mode=(D-Register) @ [UDB=(0,2)][LB=1][MC=1]
         Total # of inputs        : 3
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Total # of product terms : 2
         List of special equations: 
             Clock  = (ClockBlock_HFClk) => Global
             Clock Enable: True
         Main Equation            : 2 pterms
         (
+<<<<<<< HEAD
+              \StripLights:B_WS2811:pwmTC\ * \StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:state_0\ * 
+              \StripLights:B_WS2811:bitCount_1\ * 
+              \StripLights:B_WS2811:bitCount_0\
+            + \StripLights:B_WS2811:bitCount_2\ * 
+              !\StripLights:B_WS2811:state_1\
+        );
+        Output = \StripLights:B_WS2811:bitCount_2\ (fanout=4)
+=======
               !\StripLights:B_WS2811:state_1\ * 
               \StripLights:B_WS2811:state_0\
             + \StripLights:B_WS2811:state_0\ * 
               \StripLights:B_WS2811:dpAddr_0\
         );
         Output = \StripLights:B_WS2811:dpAddr_0\ (fanout=2)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(0,2)][LB=1] #macrocells=3, #inputs=4, #pterms=3
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]:     MacroCell: Name=Net_966_0, Mode=(D-Register) @ [UDB=(0,2)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1156_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_200
+        );
+        Output = Net_966_0 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\Timer_PWM:TimerUDB:status_tc\, Mode=(Combinatorial) @ [UDB=(0,2)][LB=1][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Timer_PWM:TimerUDB:control_7\ * \Timer_PWM:TimerUDB:per_zero\
+        );
+        Output = \Timer_PWM:TimerUDB:status_tc\ (fanout=1)
+=======
     [McSlotId=2]:     MacroCell: Name=\StripLights:B_WS2811:status_6\, Mode=(D-Register) @ [UDB=(0,2)][LB=1][MC=2]
         Total # of inputs        : 2
         Total # of product terms : 1
@@ -3589,10 +4272,22 @@ LAB@[UDB=(0,2)][LB=1] #macrocells=4, #inputs=7, #pterms=7
               \StripLights:B_WS2811:state_1\ * \StripLights:B_WS2811:state_0\
         );
         Output = \StripLights:B_WS2811:status_6\ (fanout=2)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=3]:     MacroCell: Name=Net_525, Mode=(Combinatorial) @ [UDB=(0,2)][LB=1][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_1427
+        );
+        Output = Net_525 (fanout=1)
+=======
     [McSlotId=3]:     MacroCell: Name=\StripLights:B_WS2811:pwmCntl\, Mode=(D-Register) @ [UDB=(0,2)][LB=1][MC=3]
         Total # of inputs        : 5
         Total # of product terms : 3
@@ -3610,6 +4305,7 @@ LAB@[UDB=(0,2)][LB=1] #macrocells=4, #inputs=7, #pterms=7
               !\StripLights:B_WS2811:pwmCntl\
         );
         Output = \StripLights:B_WS2811:pwmCntl\ (fanout=2)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
@@ -3651,6 +4347,8 @@ datapathcell: Name =\Timer_PWM:TimerUDB:sT24:timerdp:u1\
     Previous in chain : \Timer_PWM:TimerUDB:sT24:timerdp:u0\
     Next in chain : \Timer_PWM:TimerUDB:sT24:timerdp:u2\
 
+<<<<<<< HEAD
+=======
 statuscell: Name =\Can_addr:sts:sts_reg\
     PORT MAP (
         status_3 => Net_528 ,
@@ -3770,6 +4468,7 @@ datapathcell: Name =\StripLights:B_WS2811:pwm8:u0\
     Clock Polarity: Active High
     Clock Enable: True
 
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 statusicell: Name =\Status_Reg_Switches:sts_intr:sts_reg\
     PORT MAP (
         status_1 => Net_966_1 ,
@@ -3803,6 +4502,38 @@ controlcell: Name =\StripLights:B_WS2811:ctrl\
     }
     Clock Enable: True
 
+<<<<<<< HEAD
+UDB [UDB=(0,3)] contents:
+LAB@[UDB=(0,3)][LB=0] #macrocells=2, #inputs=5, #pterms=2
+{
+    [McSlotId=0]:     MacroCell: Name=Net_1393, Mode=(Combinatorial) @ [UDB=(0,3)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \StripLights:B_WS2811:control_4\ * 
+              \StripLights:B_WS2811:control_0\ * 
+              \StripLights:B_WS2811:status_6\
+        );
+        Output = Net_1393 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\StripLights:Net_159\, Mode=(Combinatorial) @ [UDB=(0,3)][LB=0][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \StripLights:B_WS2811:control_3\ * 
+              \StripLights:B_WS2811:control_0\ * 
+              \StripLights:B_WS2811:status_0\
+        );
+        Output = \StripLights:Net_159\ (fanout=1)
+=======
 UDB [UDB=(1,0)] contents:
 LAB@[UDB=(1,0)][LB=0] #macrocells=1, #inputs=1, #pterms=1
 {
@@ -3819,6 +4550,7 @@ LAB@[UDB=(1,0)][LB=0] #macrocells=1, #inputs=1, #pterms=1
               Net_140
         );
         Output = \QuadDec:bQuadDec:quad_B_filt\ (fanout=7)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
@@ -3826,6 +4558,29 @@ LAB@[UDB=(1,0)][LB=0] #macrocells=1, #inputs=1, #pterms=1
     [McSlotId=3]: (empty)
 }
 
+<<<<<<< HEAD
+LAB@[UDB=(0,3)][LB=1] #macrocells=4, #inputs=9, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\StripLights:Net_64\, Mode=(D-Register) @ [UDB=(0,3)][LB=1][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (ClockBlock_HFClk) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\StripLights:B_WS2811:zeroCmp\ * 
+              \StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:state_0\ * 
+              !\StripLights:B_WS2811:shiftOut\
+            + !\StripLights:B_WS2811:oneCmp\ * \StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:state_0\ * 
+              \StripLights:B_WS2811:shiftOut\
+            + !\StripLights:B_WS2811:state_1\ * 
+              \StripLights:B_WS2811:state_0\
+        );
+        Output = \StripLights:Net_64\ (fanout=1)
+=======
 LAB@[UDB=(1,0)][LB=1] #macrocells=3, #inputs=7, #pterms=8
 {
     [McSlotId=0]:     MacroCell: Name=\QuadDec:bQuadDec:error\, Mode=(D-Register) @ [UDB=(1,0)][LB=1][MC=0]
@@ -3850,10 +4605,15 @@ LAB@[UDB=(1,0)][LB=1] #macrocells=3, #inputs=7, #pterms=8
               !\QuadDec:bQuadDec:state_0\
         );
         Output = \QuadDec:bQuadDec:error\ (fanout=9)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=1]:     MacroCell: Name=\StripLights:B_WS2811:dpAddr_0\, Mode=(D-Register) @ [UDB=(0,3)][LB=1][MC=1]
+        Total # of inputs        : 3
+=======
     [McSlotId=1]:     MacroCell: Name=\QuadDec:Net_1260\, Mode=(D-Register) @ [UDB=(1,0)][LB=1][MC=1]
         Total # of inputs        : 4
         Total # of product terms : 3
@@ -4247,12 +5007,21 @@ LAB@[UDB=(1,3)][LB=0] #macrocells=3, #inputs=7, #pterms=8
 
     [McSlotId=1]:     MacroCell: Name=\StripLights:B_WS2811:bitCount_1\, Mode=(T-Register) @ [UDB=(1,3)][LB=0][MC=1]
         Total # of inputs        : 5
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Total # of product terms : 2
         List of special equations: 
             Clock  = (ClockBlock_HFClk) => Global
             Clock Enable: True
         Main Equation            : 2 pterms
         (
+<<<<<<< HEAD
+              !\StripLights:B_WS2811:state_1\ * 
+              \StripLights:B_WS2811:state_0\
+            + \StripLights:B_WS2811:state_0\ * 
+              \StripLights:B_WS2811:dpAddr_0\
+        );
+        Output = \StripLights:B_WS2811:dpAddr_0\ (fanout=2)
+=======
               \StripLights:B_WS2811:pwmTC\ * \StripLights:B_WS2811:state_1\ * 
               !\StripLights:B_WS2811:state_0\ * 
               \StripLights:B_WS2811:bitCount_0\
@@ -4260,10 +5029,24 @@ LAB@[UDB=(1,3)][LB=0] #macrocells=3, #inputs=7, #pterms=8
               \StripLights:B_WS2811:bitCount_1\
         );
         Output = \StripLights:B_WS2811:bitCount_1\ (fanout=5)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=2]:     MacroCell: Name=\StripLights:B_WS2811:status_6\, Mode=(D-Register) @ [UDB=(0,3)][LB=1][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_HFClk) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \StripLights:B_WS2811:state_1\ * \StripLights:B_WS2811:state_0\
+        );
+        Output = \StripLights:B_WS2811:status_6\ (fanout=2)
+=======
     [McSlotId=2]:     MacroCell: Name=\StripLights:B_WS2811:bitCount_2\, Mode=(T-Register) @ [UDB=(1,3)][LB=0][MC=2]
         Total # of inputs        : 6
         Total # of product terms : 2
@@ -4280,10 +5063,15 @@ LAB@[UDB=(1,3)][LB=0] #macrocells=3, #inputs=7, #pterms=8
               !\StripLights:B_WS2811:state_1\
         );
         Output = \StripLights:B_WS2811:bitCount_2\ (fanout=4)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties               : 
         {
         }
 
+<<<<<<< HEAD
+    [McSlotId=3]:     MacroCell: Name=\StripLights:B_WS2811:pwmCntl\, Mode=(D-Register) @ [UDB=(0,3)][LB=1][MC=3]
+        Total # of inputs        : 5
+=======
     [McSlotId=3]: (empty)
 }
 
@@ -4317,12 +5105,27 @@ LAB@[UDB=(1,3)][LB=1] #macrocells=3, #inputs=9, #pterms=8
 
     [McSlotId=1]:     MacroCell: Name=\StripLights:B_WS2811:state_1\, Mode=(D-Register) @ [UDB=(1,3)][LB=1][MC=1]
         Total # of inputs        : 9
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Total # of product terms : 3
         List of special equations: 
             Clock  = (ClockBlock_HFClk) => Global
             Clock Enable: True
         Main Equation            : 3 pterms
         !(
+<<<<<<< HEAD
+              \StripLights:B_WS2811:control_0\ * 
+              !\StripLights:B_WS2811:status_0\ * 
+              !\StripLights:B_WS2811:state_0\
+            + \StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:state_0\
+            + \StripLights:B_WS2811:state_1\ * 
+              !\StripLights:B_WS2811:pwmCntl\
+        );
+        Output = \StripLights:B_WS2811:pwmCntl\ (fanout=2)
+        Properties               : 
+        {
+        }
+=======
               \StripLights:B_WS2811:pwmTC\ * \StripLights:B_WS2811:control_0\ * 
               !\StripLights:B_WS2811:status_0\ * 
               \StripLights:B_WS2811:bitCount_2\ * 
@@ -4358,6 +5161,7 @@ LAB@[UDB=(1,3)][LB=1] #macrocells=3, #inputs=9, #pterms=8
         }
 
     [McSlotId=3]: (empty)
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 }
 
 datapathcell: Name =\StripLights:B_WS2811:dshifter:u0\
@@ -4408,6 +5212,607 @@ statuscell: Name =\StripLights:B_WS2811:StatusReg\
     }
     Clock Enable: True
 
+<<<<<<< HEAD
+UDB [UDB=(1,0)] contents:
+LAB@[UDB=(1,0)][LB=0] #macrocells=4, #inputs=4, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:reload\, Mode=(Combinatorial) @ [UDB=(1,0)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        !(
+              !\QuadDec:Net_1260\ * !\QuadDec:Cnt16:CounterUDB:status_1\ * 
+              !\QuadDec:Cnt16:CounterUDB:overflow\
+        );
+        Output = \QuadDec:Cnt16:CounterUDB:reload\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\QuadDec:Net_1275\, Mode=(D-Register) @ [UDB=(1,0)][LB=0][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1314_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        !(
+              !\QuadDec:Cnt16:CounterUDB:status_1\ * 
+              !\QuadDec:Cnt16:CounterUDB:overflow\
+        );
+        Output = \QuadDec:Net_1275\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:overflow_reg_i\, Mode=(D-Register) @ [UDB=(1,0)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1314_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \QuadDec:Cnt16:CounterUDB:overflow\
+        );
+        Output = \QuadDec:Cnt16:CounterUDB:overflow_reg_i\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:status_2\, Mode=(Combinatorial) @ [UDB=(1,0)][LB=0][MC=3]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \QuadDec:Cnt16:CounterUDB:overflow\ * 
+              !\QuadDec:Cnt16:CounterUDB:overflow_reg_i\
+        );
+        Output = \QuadDec:Cnt16:CounterUDB:status_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(1,0)][LB=1] #macrocells=4, #inputs=5, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:underflow_reg_i\, Mode=(D-Register) @ [UDB=(1,0)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1314_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \QuadDec:Cnt16:CounterUDB:status_1\
+        );
+        Output = \QuadDec:Cnt16:CounterUDB:underflow_reg_i\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:status_3\, Mode=(Combinatorial) @ [UDB=(1,0)][LB=1][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \QuadDec:Cnt16:CounterUDB:status_1\ * 
+              !\QuadDec:Cnt16:CounterUDB:underflow_reg_i\
+        );
+        Output = \QuadDec:Cnt16:CounterUDB:status_3\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\QuadDec:Net_530\, Mode=(Combinatorial) @ [UDB=(1,0)][LB=1][MC=2]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \QuadDec:Net_1251\ * \QuadDec:Net_1275\ * 
+              !\QuadDec:Cnt16:CounterUDB:prevCompare\
+        );
+        Output = \QuadDec:Net_530\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\QuadDec:Net_611\, Mode=(Combinatorial) @ [UDB=(1,0)][LB=1][MC=3]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !\QuadDec:Net_1251\ * \QuadDec:Net_1275\ * 
+              !\QuadDec:Cnt16:CounterUDB:prevCompare\
+        );
+        Output = \QuadDec:Net_611\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+datapathcell: Name =\QuadDec:Cnt16:CounterUDB:sC16:counterdp:u0\
+    PORT MAP (
+        clock => Net_1314_digital ,
+        cs_addr_2 => \QuadDec:Net_1251\ ,
+        cs_addr_1 => \QuadDec:Cnt16:CounterUDB:count_enable\ ,
+        cs_addr_0 => \QuadDec:Cnt16:CounterUDB:reload\ ,
+        chain_out => \QuadDec:Cnt16:CounterUDB:sC16:counterdp:carry\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000000000000100000000010000001000000000000001000000011111111000000001111111111111111101000000000000000000001000000000000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Next in chain : \QuadDec:Cnt16:CounterUDB:sC16:counterdp:u1\
+
+UDB [UDB=(1,1)] contents:
+LAB@[UDB=(1,1)][LB=0] #macrocells=3, #inputs=10, #pterms=6
+{
+    [McSlotId=0]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:count_enable\, Mode=(Combinatorial) @ [UDB=(1,1)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \QuadDec:Cnt16:CounterUDB:control_7\ * 
+              !\QuadDec:Cnt16:CounterUDB:count_stored_i\ * \QuadDec:Net_1203\
+        );
+        Output = \QuadDec:Cnt16:CounterUDB:count_enable\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\QuadDec:Net_1260\, Mode=(D-Register) @ [UDB=(1,1)][LB=0][MC=1]
+        Total # of inputs        : 4
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_1314_digital) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        !(
+              !\QuadDec:Net_1260\ * !\QuadDec:bQuadDec:error\
+            + !\QuadDec:Net_1260\ * !\QuadDec:bQuadDec:state_1\ * 
+              !\QuadDec:bQuadDec:state_0\
+            + !\QuadDec:bQuadDec:error\ * !\QuadDec:bQuadDec:state_1\ * 
+              !\QuadDec:bQuadDec:state_0\
+        );
+        Output = \QuadDec:Net_1260\ (fanout=10)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\QuadDec:Net_1203\, Mode=(D-Register) @ [UDB=(1,1)][LB=0][MC=2]
+        Total # of inputs        : 6
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_1314_digital) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !\QuadDec:bQuadDec:quad_A_filt\ * 
+              \QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              !\QuadDec:bQuadDec:state_1\ * !\QuadDec:bQuadDec:state_0\
+            + \QuadDec:Net_1203_split\
+        );
+        Output = \QuadDec:Net_1203\ (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(1,1)][LB=1] #macrocells=1, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\QuadDec:Net_1203_split\, Mode=(Combinatorial) @ [UDB=(1,1)][LB=1][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              !\QuadDec:Net_1260\ * \QuadDec:Net_1203\ * 
+              \QuadDec:bQuadDec:error\ * !\QuadDec:bQuadDec:state_1\ * 
+              !\QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * !\QuadDec:bQuadDec:quad_A_filt\ * 
+              !\QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              !\QuadDec:bQuadDec:state_1\ * \QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * !\QuadDec:bQuadDec:quad_A_filt\ * 
+              !\QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              \QuadDec:bQuadDec:state_1\ * !\QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * !\QuadDec:bQuadDec:quad_A_filt\ * 
+              \QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              \QuadDec:bQuadDec:state_1\ * \QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * \QuadDec:bQuadDec:quad_A_filt\ * 
+              !\QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              \QuadDec:bQuadDec:state_1\ * \QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * \QuadDec:bQuadDec:quad_A_filt\ * 
+              \QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              !\QuadDec:bQuadDec:state_1\ * \QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * \QuadDec:bQuadDec:quad_A_filt\ * 
+              \QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              \QuadDec:bQuadDec:state_1\ * !\QuadDec:bQuadDec:state_0\
+            + \QuadDec:bQuadDec:quad_A_filt\ * 
+              !\QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              !\QuadDec:bQuadDec:state_1\ * !\QuadDec:bQuadDec:state_0\
+        );
+        Output = \QuadDec:Net_1203_split\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+statusicell: Name =\QuadDec:Cnt16:CounterUDB:sSTSReg:stsreg\
+    PORT MAP (
+        reset => \QuadDec:Net_1260\ ,
+        clock => Net_1314_digital ,
+        status_6 => \QuadDec:Cnt16:CounterUDB:status_6\ ,
+        status_5 => \QuadDec:Cnt16:CounterUDB:status_5\ ,
+        status_3 => \QuadDec:Cnt16:CounterUDB:status_3\ ,
+        status_2 => \QuadDec:Cnt16:CounterUDB:status_2\ ,
+        status_1 => \QuadDec:Cnt16:CounterUDB:status_1\ ,
+        status_0 => \QuadDec:Cnt16:CounterUDB:status_0\ );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "0011111"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+controlcell: Name =\QuadDec:Cnt16:CounterUDB:sCTRLReg:ctrlreg\
+    PORT MAP (
+        clock => Net_1314_digital ,
+        control_7 => \QuadDec:Cnt16:CounterUDB:control_7\ ,
+        control_6 => \QuadDec:Cnt16:CounterUDB:control_6\ ,
+        control_5 => \QuadDec:Cnt16:CounterUDB:control_5\ ,
+        control_4 => \QuadDec:Cnt16:CounterUDB:control_4\ ,
+        control_3 => \QuadDec:Cnt16:CounterUDB:control_3\ ,
+        control_2 => \QuadDec:Cnt16:CounterUDB:control_2\ ,
+        control_1 => \QuadDec:Cnt16:CounterUDB:control_1\ ,
+        control_0 => \QuadDec:Cnt16:CounterUDB:control_0\ );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "11111111"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(1,2)] contents:
+LAB@[UDB=(1,2)][LB=0] #macrocells=2, #inputs=2, #pterms=2
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\QuadDec:Cnt16:CounterUDB:count_stored_i\, Mode=(D-Register) @ [UDB=(1,2)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1314_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \QuadDec:Net_1203\
+        );
+        Output = \QuadDec:Cnt16:CounterUDB:count_stored_i\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\QuadDec:bQuadDec:quad_A_filt\, Mode=(D-Register) @ [UDB=(1,2)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_1314_digital) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_139
+        );
+        Output = \QuadDec:bQuadDec:quad_A_filt\ (fanout=7)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(1,2)][LB=1] #macrocells=2, #inputs=8, #pterms=8
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\QuadDec:Net_1251\, Mode=(D-Register) @ [UDB=(1,2)][LB=1][MC=2]
+        Total # of inputs        : 8
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (Net_1314_digital) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              \QuadDec:Net_1251\ * !\QuadDec:Net_1260\ * 
+              !\QuadDec:bQuadDec:quad_A_filt\ * !\QuadDec:bQuadDec:error\ * 
+              !\QuadDec:bQuadDec:state_0\
+            + \QuadDec:Net_1251\ * !\QuadDec:Net_1260\ * 
+              \QuadDec:bQuadDec:quad_A_filt\ * !\QuadDec:bQuadDec:error\ * 
+              \QuadDec:bQuadDec:state_0\
+            + \QuadDec:Net_1251\ * !\QuadDec:Net_1260\ * 
+              !\QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              \QuadDec:bQuadDec:state_1\
+            + \QuadDec:Net_1251_split\
+        );
+        Output = \QuadDec:Net_1251\ (fanout=6)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\QuadDec:bQuadDec:state_1\, Mode=(D-Register) @ [UDB=(1,2)][LB=1][MC=3]
+        Total # of inputs        : 6
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (Net_1314_digital) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\QuadDec:Net_1260\ * \QuadDec:bQuadDec:quad_A_filt\ * 
+              \QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              \QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * \QuadDec:bQuadDec:quad_A_filt\ * 
+              !\QuadDec:bQuadDec:error\ * \QuadDec:bQuadDec:state_1\
+            + !\QuadDec:Net_1260\ * \QuadDec:bQuadDec:quad_A_filt\ * 
+              \QuadDec:bQuadDec:error\ * !\QuadDec:bQuadDec:state_1\ * 
+              !\QuadDec:bQuadDec:state_0\
+            + \QuadDec:bQuadDec:quad_A_filt\ * 
+              !\QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              !\QuadDec:bQuadDec:state_1\ * !\QuadDec:bQuadDec:state_0\
+        );
+        Output = \QuadDec:bQuadDec:state_1\ (fanout=8)
+        Properties               : 
+        {
+        }
+}
+
+datapathcell: Name =\Timer_PWM:TimerUDB:sT24:timerdp:u0\
+    PORT MAP (
+        clock => Net_1314_digital ,
+        cs_addr_1 => \Timer_PWM:TimerUDB:control_7\ ,
+        cs_addr_0 => \Timer_PWM:TimerUDB:per_zero\ ,
+        chain_out => \Timer_PWM:TimerUDB:sT24:timerdp:carry0\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000000100000001000000010000000000000010000000000000001000000000000000100000000000000010000000000000001000000011111111000000001111111111111111000000000000000000000001000000000000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Next in chain : \Timer_PWM:TimerUDB:sT24:timerdp:u1\
+
+statusicell: Name =\QuadDec:bQuadDec:Stsreg\
+    PORT MAP (
+        clock => Net_1314_digital ,
+        status_3 => \QuadDec:bQuadDec:error\ ,
+        status_2 => \QuadDec:Net_1260\ ,
+        status_1 => \QuadDec:Net_611\ ,
+        status_0 => \QuadDec:Net_530\ ,
+        interrupt => Net_1458 );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "0001111"
+        cy_md_select = "0001111"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+controlcell: Name =\Timer_PWM:TimerUDB:sCTRLReg:SyncCtl:ctrlreg\
+    PORT MAP (
+        clock => Net_1314_digital ,
+        control_7 => \Timer_PWM:TimerUDB:control_7\ ,
+        control_6 => \Timer_PWM:TimerUDB:control_6\ ,
+        control_5 => \Timer_PWM:TimerUDB:control_5\ ,
+        control_4 => \Timer_PWM:TimerUDB:control_4\ ,
+        control_3 => \Timer_PWM:TimerUDB:control_3\ ,
+        control_2 => \Timer_PWM:TimerUDB:control_2\ ,
+        control_1 => \Timer_PWM:TimerUDB:control_1\ ,
+        control_0 => \Timer_PWM:TimerUDB:control_0\ );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "11111111"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(1,3)] contents:
+LAB@[UDB=(1,3)][LB=0] #macrocells=1, #inputs=7, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\QuadDec:Net_1251_split\, Mode=(Combinatorial) @ [UDB=(1,3)][LB=0][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 8
+            Clock Enable: True
+        Main Equation            : 8 pterms
+        (
+              \QuadDec:Net_1251\ * !\QuadDec:Net_1260\ * 
+              \QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              !\QuadDec:bQuadDec:state_1\
+            + \QuadDec:Net_1251\ * !\QuadDec:Net_1260\ * 
+              \QuadDec:bQuadDec:error\ * !\QuadDec:bQuadDec:state_1\ * 
+              !\QuadDec:bQuadDec:state_0\
+            + \QuadDec:Net_1251\ * !\QuadDec:bQuadDec:quad_A_filt\ * 
+              !\QuadDec:bQuadDec:error\ * !\QuadDec:bQuadDec:state_1\ * 
+              !\QuadDec:bQuadDec:state_0\
+            + \QuadDec:Net_1251\ * \QuadDec:bQuadDec:quad_B_filt\ * 
+              !\QuadDec:bQuadDec:error\ * !\QuadDec:bQuadDec:state_1\ * 
+              !\QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * !\QuadDec:bQuadDec:quad_A_filt\ * 
+              !\QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              \QuadDec:bQuadDec:state_1\ * !\QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * \QuadDec:bQuadDec:quad_A_filt\ * 
+              !\QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              \QuadDec:bQuadDec:state_1\ * \QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * \QuadDec:bQuadDec:quad_A_filt\ * 
+              \QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              !\QuadDec:bQuadDec:state_1\ * \QuadDec:bQuadDec:state_0\
+            + !\QuadDec:bQuadDec:quad_A_filt\ * 
+              \QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              !\QuadDec:bQuadDec:state_1\ * !\QuadDec:bQuadDec:state_0\
+        );
+        Output = \QuadDec:Net_1251_split\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(1,3)][LB=1] #macrocells=2, #inputs=6, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\QuadDec:bQuadDec:error\, Mode=(D-Register) @ [UDB=(1,3)][LB=1][MC=0]
+        Total # of inputs        : 6
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (Net_1314_digital) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\QuadDec:Net_1260\ * !\QuadDec:bQuadDec:quad_A_filt\ * 
+              !\QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              \QuadDec:bQuadDec:state_1\ * \QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * !\QuadDec:bQuadDec:quad_A_filt\ * 
+              \QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              \QuadDec:bQuadDec:state_1\ * !\QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * \QuadDec:bQuadDec:quad_A_filt\ * 
+              !\QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              !\QuadDec:bQuadDec:state_1\ * \QuadDec:bQuadDec:state_0\
+            + \QuadDec:bQuadDec:quad_A_filt\ * \QuadDec:bQuadDec:quad_B_filt\ * 
+              !\QuadDec:bQuadDec:error\ * !\QuadDec:bQuadDec:state_1\ * 
+              !\QuadDec:bQuadDec:state_0\
+        );
+        Output = \QuadDec:bQuadDec:error\ (fanout=9)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\QuadDec:bQuadDec:state_0\, Mode=(D-Register) @ [UDB=(1,3)][LB=1][MC=1]
+        Total # of inputs        : 6
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (Net_1314_digital) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              !\QuadDec:Net_1260\ * \QuadDec:bQuadDec:quad_A_filt\ * 
+              \QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              \QuadDec:bQuadDec:state_1\
+            + !\QuadDec:Net_1260\ * \QuadDec:bQuadDec:quad_B_filt\ * 
+              !\QuadDec:bQuadDec:error\ * \QuadDec:bQuadDec:state_0\
+            + !\QuadDec:Net_1260\ * \QuadDec:bQuadDec:quad_B_filt\ * 
+              \QuadDec:bQuadDec:error\ * !\QuadDec:bQuadDec:state_1\ * 
+              !\QuadDec:bQuadDec:state_0\
+            + !\QuadDec:bQuadDec:quad_A_filt\ * 
+              \QuadDec:bQuadDec:quad_B_filt\ * !\QuadDec:bQuadDec:error\ * 
+              !\QuadDec:bQuadDec:state_1\ * !\QuadDec:bQuadDec:state_0\
+        );
+        Output = \QuadDec:bQuadDec:state_0\ (fanout=8)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\StripLights:B_WS2811:pwm8:u0\
+    PORT MAP (
+        clock => ClockBlock_HFClk ,
+        cs_addr_1 => \StripLights:B_WS2811:pwmCntl\ ,
+        cs_addr_0 => \StripLights:B_WS2811:pwmTC\ ,
+        cl0_comb => \StripLights:B_WS2811:zeroCmp\ ,
+        z0_comb => \StripLights:B_WS2811:pwmTC\ ,
+        cl1_comb => \StripLights:B_WS2811:oneCmp\ );
+    Properties:
+    {
+        a0_init = "00011000"
+        a1_init = "00011000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0100000001000000000000001100000000000000110000000000000011000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111111111111101000000000000000000000000000000000000000000000"
+        d0_init = "00010100"
+        d1_init = "00001100"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+=======
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
 Intr container @ [IntrContainer=(0)]: 
   Intr@ [IntrContainer=(0)][IntrId=(0)] 
     interrupt: Name =\QuadDec:isr\
@@ -4601,7 +6006,15 @@ Pin : Name = \I2C:scl(0)\
         IO Voltage: 0
     PORT MAP (
         pa_out => \I2C:scl(0)\__PA ,
+<<<<<<< HEAD
         fb => Net_1565 ,
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+        fb => Net_1521 ,
+========
+        fb => Net_1565 ,
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         pad => \I2C:scl(0)_PAD\ );
     Properties:
     {
@@ -4642,7 +6055,15 @@ Pin : Name = \I2C:sda(0)\
         IO Voltage: 0
     PORT MAP (
         pa_out => \I2C:sda(0)\__PA ,
+<<<<<<< HEAD
         fb => Net_1566 ,
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+        fb => Net_1522 ,
+========
+        fb => Net_1566 ,
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         pad => \I2C:sda(0)_PAD\ );
     Properties:
     {
@@ -5518,7 +6939,15 @@ SCB group 0:
     m0s8scbcell: Name =\I2C:SCB\
         PORT MAP (
             clock => \I2C:Net_847_ff2\ ,
+<<<<<<< HEAD
             interrupt => Net_1549 ,
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+            interrupt => Net_1505 ,
+========
+            interrupt => Net_1549 ,
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
             uart_tx => \I2C:tx_wire\ ,
             uart_rts => \I2C:rts_wire\ ,
             mosi_m => \I2C:mosi_m_wire\ ,
@@ -5528,10 +6957,23 @@ SCB group 0:
             select_m_0 => \I2C:select_m_wire_0\ ,
             sclk_m => \I2C:sclk_m_wire\ ,
             miso_s => \I2C:miso_s_wire\ ,
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+            i2c_scl => Net_1521 ,
+            i2c_sda => Net_1522 ,
+            tr_tx_req => Net_1523 ,
+            tr_rx_req => Net_1514 );
+========
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
             i2c_scl => Net_1565 ,
             i2c_sda => Net_1566 ,
             tr_tx_req => Net_1567 ,
             tr_rx_req => Net_1558 );
+<<<<<<< HEAD
+=======
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
         Properties:
         {
             cy_registers = ""
@@ -5649,8 +7091,18 @@ Port | Pin | Fixed |      Type |       Drive Mode |                      Name | 
    0 |   0 |     * |      NONE |     HI_Z_DIGITAL |                   RX_1(0) | FB(Net_11)
      |   1 |     * |      NONE |         CMOS_OUT |                   TX_1(0) | In(Net_12)
 -----+-----+-------+-----------+------------------+---------------------------+---------------------------------
+<<<<<<< HEAD
+   1 |   0 |     * |      NONE |    OPEN_DRAIN_LO |              \I2C:scl(0)\ | FB(Net_1565)
+     |   1 |     * |      NONE |    OPEN_DRAIN_LO |              \I2C:sda(0)\ | FB(Net_1566)
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+   1 |   0 |       |      NONE |    OPEN_DRAIN_LO |              \I2C:scl(0)\ | FB(Net_1521)
+     |   1 |       |      NONE |    OPEN_DRAIN_LO |              \I2C:sda(0)\ | FB(Net_1522)
+========
    1 |   0 |       |      NONE |    OPEN_DRAIN_LO |              \I2C:scl(0)\ | FB(Net_1565)
      |   1 |       |      NONE |    OPEN_DRAIN_LO |              \I2C:sda(0)\ | FB(Net_1566)
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
      |   6 |     * |      NONE |         CMOS_OUT |              Array_LED(0) | In(Net_1416)
      |   7 |     * |      NONE |      HI_Z_ANALOG | \ADC_SAR_Seq_1:Bypass(0)\ | Analog(\ADC_SAR_Seq_1:Net_3225\)
 -----+-----+-------+-----------+------------------+---------------------------+---------------------------------
@@ -5680,13 +7132,71 @@ Port | Pin | Fixed |      Type |       Drive Mode |                      Name | 
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
+<<<<<<< HEAD
 Digital component placer commit/Report: Elapsed time ==> 0s.096ms
 Digital Placement phase: Elapsed time ==> 1s.439ms
+=======
+<<<<<<< HEAD
+Digital component placer commit/Report: Elapsed time ==> 0s.083ms
+Digital Placement phase: Elapsed time ==> 1s.591ms
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Digital component placer commit/Report: Elapsed time ==> 0s.128ms
+Digital Placement phase: Elapsed time ==> 2s.671ms
+========
+Digital component placer commit/Report: Elapsed time ==> 0s.320ms
+Digital Placement phase: Elapsed time ==> 3s.006ms
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc4/2/route_arch-rrg.cydata" --vh2-path "Motor_Board_Hand_Firmware_r.vh2" --pcf-path "Motor_Board_Hand_Firmware.pco" --des-name "Motor_Board_Hand_Firmware" --dsf-path "Motor_Board_Hand_Firmware.dsf" --sdc-path "Motor_Board_Hand_Firmware.sdc" --lib-path "Motor_Board_Hand_Firmware_r.lib"
 Routing successful.
+<<<<<<< HEAD
 Digital Routing phase: Elapsed time ==> 1s.360ms
+=======
+<<<<<<< HEAD
+Digital Routing phase: Elapsed time ==> 1s.299ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Generation">
+Bitstream Generation phase: Elapsed time ==> 0s.388ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Verification">
+Bitstream Verification phase: Elapsed time ==> 0s.062ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Static timing analysis">
+Timing report is in Motor_Board_Hand_Firmware_timing.html.
+Static timing analysis phase: Elapsed time ==> 0s.358ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Data reporting">
+Data reporting phase: Elapsed time ==> 0s.004ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+Design database save phase: Elapsed time ==> 0s.251ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 5s.440ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 5s.448ms
+API generation phase: Elapsed time ==> 2s.744ms
+Dependency generation phase: Elapsed time ==> 0s.021ms
+Cleanup phase: Elapsed time ==> 0s.001ms
+=======
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Digital Routing phase: Elapsed time ==> 1s.641ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Generation">
+Bitstream Generation phase: Elapsed time ==> 0s.376ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Verification">
+Bitstream Verification phase: Elapsed time ==> 0s.027ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Static timing analysis">
+Timing report is in Motor_Board_Hand_Firmware_timing.html.
+Static timing analysis phase: Elapsed time ==> 0s.373ms
+========
+Digital Routing phase: Elapsed time ==> 3s.681ms
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream Generation">
 Bitstream Generation phase: Elapsed time ==> 0s.425ms
@@ -5696,6 +7206,7 @@ Bitstream Verification phase: Elapsed time ==> 0s.073ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in Motor_Board_Hand_Firmware_timing.html.
+<<<<<<< HEAD
 Static timing analysis phase: Elapsed time ==> 0s.387ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
@@ -5703,10 +7214,39 @@ Data reporting phase: Elapsed time ==> 0s.004ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
 Design database save phase: Elapsed time ==> 0s.330ms
+=======
+Static timing analysis phase: Elapsed time ==> 0s.949ms
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+</CYPRESSTAG>
+<CYPRESSTAG name="Data reporting">
+Data reporting phase: Elapsed time ==> 0s.001ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+<<<<<<<< HEAD:Motor Unit - Copy/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+Design database save phase: Elapsed time ==> 0s.377ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 7s.212ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 7s.213ms
+API generation phase: Elapsed time ==> 4s.056ms
+Dependency generation phase: Elapsed time ==> 0s.019ms
+Cleanup phase: Elapsed time ==> 0s.000ms
+========
+Design database save phase: Elapsed time ==> 0s.798ms
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a
 </CYPRESSTAG>
 cydsfit: Elapsed time ==> 5s.732ms
 </CYPRESSTAG>
+<<<<<<< HEAD
 Fitter phase: Elapsed time ==> 5s.741ms
 API generation phase: Elapsed time ==> 2s.892ms
 Dependency generation phase: Elapsed time ==> 0s.024ms
 Cleanup phase: Elapsed time ==> 0s.002ms
+=======
+Fitter phase: Elapsed time ==> 11s.830ms
+API generation phase: Elapsed time ==> 7s.497ms
+Dependency generation phase: Elapsed time ==> 0s.056ms
+Cleanup phase: Elapsed time ==> 0s.003ms
+>>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94:Motor Unit/Motor_Board_Hand_Firmware.cydsn/Motor_Board_Hand_Firmware.rpt
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
+>>>>>>> 0ae2c32e0ebfc0a071e55ec4f37b42e47848055a

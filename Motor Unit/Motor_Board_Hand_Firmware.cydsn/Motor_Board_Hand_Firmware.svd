@@ -19,7 +19,11 @@
         <register>
           <name>Can_addr_STATUS_REG</name>
           <description>No description available</description>
+<<<<<<< HEAD
+          <addressOffset>0x400F0067</addressOffset>
+=======
           <addressOffset>0x400F0063</addressOffset>
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -28,7 +32,11 @@
         <register>
           <name>Can_addr_MASK_REG</name>
           <description>No description available</description>
+<<<<<<< HEAD
+          <addressOffset>0x400F0087</addressOffset>
+=======
           <addressOffset>0x400F0083</addressOffset>
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -37,7 +45,11 @@
         <register>
           <name>Can_addr_STATUS_AUX_CTL_REG</name>
           <description>No description available</description>
+<<<<<<< HEAD
+          <addressOffset>0x400F0097</addressOffset>
+=======
           <addressOffset>0x400F0093</addressOffset>
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -192,7 +204,11 @@
         <register>
           <name>Timer_PWM_Control_Reg</name>
           <description>UDB Control Register - Assigned Control Register Value</description>
+<<<<<<< HEAD
+          <addressOffset>0x400F0072</addressOffset>
+=======
           <addressOffset>0x400F0074</addressOffset>
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -28937,7 +28953,11 @@
         <register>
           <name>QuadDec_STATUS_REG</name>
           <description>Quadrature Decoder Status Register</description>
+<<<<<<< HEAD
+          <addressOffset>0x400F0062</addressOffset>
+=======
           <addressOffset>0x400F0066</addressOffset>
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -29048,7 +29068,11 @@
         <register>
           <name>QuadDec_Cnt16_STATUS_MASK</name>
           <description>UDB Status bits Interrupt Mask Enable Register</description>
+<<<<<<< HEAD
+          <addressOffset>0x400F0085</addressOffset>
+=======
           <addressOffset>0x400F0087</addressOffset>
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -29108,7 +29132,11 @@
         <register>
           <name>QuadDec_Cnt16_STATUS_AUX_CTRL</name>
           <description>UDB Auxilliary Control Register</description>
+<<<<<<< HEAD
+          <addressOffset>0x400F0095</addressOffset>
+=======
           <addressOffset>0x400F0097</addressOffset>
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -31128,7 +31156,11 @@
         <register>
           <name>StripLights_StringSel_CONTROL_REG</name>
           <description>No description available</description>
+<<<<<<< HEAD
+          <addressOffset>0x400F0077</addressOffset>
+=======
           <addressOffset>0x400F0073</addressOffset>
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -31149,7 +31181,11 @@
         <register>
           <name>Status_Reg_Switches_STATUS_REG</name>
           <description>No description available</description>
+<<<<<<< HEAD
+          <addressOffset>0x400F0063</addressOffset>
+=======
           <addressOffset>0x400F0060</addressOffset>
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -31158,7 +31194,11 @@
         <register>
           <name>Status_Reg_Switches_MASK_REG</name>
           <description>No description available</description>
+<<<<<<< HEAD
+          <addressOffset>0x400F0083</addressOffset>
+=======
           <addressOffset>0x400F0080</addressOffset>
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>
@@ -31167,7 +31207,11 @@
         <register>
           <name>Status_Reg_Switches_STATUS_AUX_CTL_REG</name>
           <description>No description available</description>
+<<<<<<< HEAD
+          <addressOffset>0x400F0093</addressOffset>
+=======
           <addressOffset>0x400F0090</addressOffset>
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
           <size>8</size>
           <access>read-write</access>
           <resetValue>0</resetValue>

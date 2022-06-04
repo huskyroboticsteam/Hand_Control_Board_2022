@@ -29,7 +29,10 @@ void set_PWM(int16_t compare, uint8_t disable_limit, uint8 limitSW) {
     sprintf(txData, "PWM:%d disable_limit: %d\r\n",compare,disable_limit);
     UART_UartPutString(txData); 
     #endif
+<<<<<<< HEAD
+=======
     
+>>>>>>> b3652e7f1a26348cb5ae06fd934b5c0feed27f94
    if (GetPacketID(&can_recieve) == 0xE) {
       setPWMFromBytes((&can_recieve)->data[1], (&can_recieve)->data[2], (&can_recieve)->data[3], 
                        (&can_recieve)->data[4], (&can_recieve)->data[5]);
