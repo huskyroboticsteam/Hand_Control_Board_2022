@@ -1,0 +1,241 @@
+--------------- Build Started: 02/22/2022 18:09:38 Project: Motor_Board_Rev3_CAN_Send_Copy_01, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I..\..\HindsightCAN -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -D CHIP_TYPE=CHIP_TYPE_PSOC_CY8C4248AZI_L485 -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM0\ARM_GCC_541\Debug\main.o
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:31:3: error: conflicting types for 'CANPacket'
+ } CANPacket;
+   ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:20:3: note: previous declaration of 'CANPacket' was here
+ } CANPacket;
+   ^
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:33:11: error: conflicting types for 'ConstructCANPacket'
+ CANPacket ConstructCANPacket(uint16_t id, uint8_t dlc, uint8_t* data);
+           ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:22:11: note: previous declaration of 'ConstructCANPacket' was here
+ CANPacket ConstructCANPacket(uint16_t id, uint8_t dlc, uint8_t* data);
+           ^
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:40:9: error: conflicting types for 'GetPacketPriority'
+ uint8_t GetPacketPriority(CANPacket *packet);
+         ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:29:9: note: previous declaration of 'GetPacketPriority' was here
+ uint8_t GetPacketPriority(CANPacket *packet);
+         ^
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:42:9: error: conflicting types for 'GetDeviceGroupCode'
+ uint8_t GetDeviceGroupCode(CANPacket *packet);
+         ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:31:9: note: previous declaration of 'GetDeviceGroupCode' was here
+ uint8_t GetDeviceGroupCode(CANPacket *packet);
+         ^
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:43:9: error: conflicting types for 'GetDeviceSerialNumber'
+ uint8_t GetDeviceSerialNumber(CANPacket *packet);
+         ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:32:9: note: previous declaration of 'GetDeviceSerialNumber' was here
+ uint8_t GetDeviceSerialNumber(CANPacket *packet);
+         ^
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:44:9: error: conflicting types for 'GetSenderDeviceSerialNumber'
+ uint8_t GetSenderDeviceSerialNumber(CANPacket *packet);
+         ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:33:9: note: previous declaration of 'GetSenderDeviceSerialNumber' was here
+ uint8_t GetSenderDeviceSerialNumber(CANPacket *packet);
+         ^
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:45:9: error: conflicting types for 'GetSenderDeviceGroupCode'
+ uint8_t GetSenderDeviceGroupCode(CANPacket *packet);
+         ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:34:9: note: previous declaration of 'GetSenderDeviceGroupCode' was here
+ uint8_t GetSenderDeviceGroupCode(CANPacket *packet);
+         ^
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:47:5: error: conflicting types for 'PacketIsInGroup'
+ int PacketIsInGroup(CANPacket *packet, uint8_t expectedType);
+     ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:36:5: note: previous declaration of 'PacketIsInGroup' was here
+ int PacketIsInGroup(CANPacket *packet, uint8_t expectedType);
+     ^
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:48:5: error: conflicting types for 'SenderPacketIsInGroup'
+ int SenderPacketIsInGroup(CANPacket *packet, uint8_t expectedType);
+     ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:37:5: note: previous declaration of 'SenderPacketIsInGroup' was here
+ int SenderPacketIsInGroup(CANPacket *packet, uint8_t expectedType);
+     ^
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:49:5: error: conflicting types for 'SenderPacketIsOfDevice'
+ int SenderPacketIsOfDevice(CANPacket *packet, uint8_t expectedType);
+     ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:38:5: note: previous declaration of 'SenderPacketIsOfDevice' was here
+ int SenderPacketIsOfDevice(CANPacket *packet, uint8_t expectedType);
+     ^
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:50:5: error: conflicting types for 'TargetsDevice'
+ int TargetsDevice(CANPacket *packet, uint8_t targetDeviceGroup, uint8_t targetDeviceSerialNumber);
+     ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:39:5: note: previous declaration of 'TargetsDevice' was here
+ int TargetsDevice(CANPacket *packet, uint8_t targetDeviceGroup, uint8_t targetDeviceSerialNumber);
+     ^
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:52:5: error: conflicting types for 'GetPacketID'
+ int GetPacketID(CANPacket *packet);
+     ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:41:5: note: previous declaration of 'GetPacketID' was here
+ int GetPacketID(CANPacket *packet);
+     ^
+In file included from Port.h:29:0,
+                 from main.c:20:
+CANPacket.h:53:5: error: conflicting types for 'PacketIsOfID'
+ int PacketIsOfID(CANPacket *packet, uint8_t expectedID);
+     ^
+In file included from ./../CANLib/CANLibrary.h:12:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANPacket.h:42:5: note: previous declaration of 'PacketIsOfID' was here
+ int PacketIsOfID(CANPacket *packet, uint8_t expectedID);
+     ^
+In file included from main.c:20:0:
+Port.h:39:5: error: conflicting types for 'SendCANPacket'
+ int SendCANPacket(CANPacket *packetToSend);
+     ^
+In file included from ./../CANLib/CANLibrary.h:14:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+..\..\HindsightCAN/Port.h:28:5: note: previous declaration of 'SendCANPacket' was here
+ int SendCANPacket(CANPacket *packetToSend);
+     ^
+In file included from main.c:20:0:
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+Port.h:45:5: error: conflicting types for 'PollAndReceiveCANPacket'
+ int PollAndReceiveCANPacket(CANPacket *receivedPacket);
+     ^
+In file included from ./../CANLib/CANLibrary.h:14:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+..\..\HindsightCAN/Port.h:34:5: note: previous declaration of 'PollAndReceiveCANPacket' was here
+ int PollAndReceiveCANPacket(CANPacket *receivedPacket);
+     ^
+main.c: In function 'Period_Reset_Handler':
+main.c:49:18: warning: unused variable 'timer' [-Wunused-variable]
+     volatile int timer = Timer_1_ReadStatusRegister();
+                  ^
+main.c: In function 'main':
+main.c:86:39: warning: passing argument 1 of 'AssembleModeSetPacket' from incompatible pointer type [-Wincompatible-pointer-types]
+                 AssembleModeSetPacket(&can_send, 0x4, destSerial, mode);
+                                       ^
+In file included from ./../CANLib/CANLibrary.h:19:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANMotorUnit.h:15:6: note: expected 'CANPacket * {aka struct <anonymous> *}' but argument is of type 'CANPacket * {aka struct <anonymous> *}'
+ void AssembleModeSetPacket(CANPacket *packetToAssemble,
+      ^
+main.c:93:41: warning: passing argument 1 of 'AssemblePWMDirSetPacket' from incompatible pointer type [-Wincompatible-pointer-types]
+                 AssemblePWMDirSetPacket(&can_send, 0x4, destSerial, SetMotorPWM());
+                                         ^
+In file included from ./../CANLib/CANLibrary.h:19:0,
+                 from ./cyapicallbacks.h:20,
+                 from Generated_Source\PSoC4/CAN.h:25,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./../CANLib/CANMotorUnit.h:22:6: note: expected 'CANPacket * {aka struct <anonymous> *}' but argument is of type 'CANPacket * {aka struct <anonymous> *}'
+ void AssemblePWMDirSetPacket(CANPacket *packetToAssemble, 
+      ^
+main.c:73:18: warning: unused variable 'error' [-Wunused-variable]
+     volatile int error = 0;
+                  ^
+main.c:71:15: warning: unused variable 'can_recieve' [-Wunused-variable]
+     CANPacket can_recieve;
+               ^
+main.c: At top level:
+main.c:133:6: error: conflicting types for 'PrintCanPacket'
+ void PrintCanPacket(CANPacket receivedPacket){
+      ^
+In file included from Generated_Source\PSoC4/CAN.h:25:0,
+                 from Generated_Source\PSoC4/project.h:55,
+                 from main.c:12:
+./cyapicallbacks.h:33:6: note: previous declaration of 'PrintCanPacket' was here
+ void PrintCanPacket(CANPacket receivedPacket);
+      ^
+--------------- Build Failed: 02/22/2022 18:09:38 ---------------

@@ -15,7 +15,6 @@
     #include "../CANLib/CANLibrary.h"
     #include "cyapicallbacks.h"
     #include <stdint.h>
-    #include "project.h"
             
         #define LED_ON  0
         #define LED_OFF 1

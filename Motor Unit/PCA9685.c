@@ -14,6 +14,7 @@
 #include "PCA9685.h"
 
 void pca_init(){
+    I2C_Init();
     I2C_Start();
     I2C_Enable();
     uint8 mode_buf[2] = {0,0b10000000};

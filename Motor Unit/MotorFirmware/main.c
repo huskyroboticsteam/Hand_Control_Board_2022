@@ -42,6 +42,9 @@ uint8 address = 0;
 
 volatile uint8 drive = 0;
 uint8_t CAN_check_delay = 0;
+CANPacket can_recieve;
+CANPacket can_send;
+
 
 CY_ISR(Period_Reset_Handler) {
     int timer = Timer_PWM_ReadStatusRegister();
@@ -94,26 +97,15 @@ CY_ISR(Pin_Limit_Handler){
 
 int main(void)
 { 
-    CyGlobalIntEnable; /* Enable global interrupts. LED arrays need this first */
-    pca_init();
     Initialize();
     #ifdef RGB_LED_ARRAY
     StripLights_DisplayClear(StripLights_BLACK);
     #endif
-    int pin = 1;
-    for (;;) {
-        
-        for (int i = 0; i < 100; i++) {
-            setPWMFromDutyCycle(pin, i);
-            CyDelay(10);
-        }
-        for (int i = 100; i >= 0; i--) {
-            setPWMFromDutyCycle(pin, i);
-            CyDelay(10);
-        }
-    }
     for(;;)
     {
+        for (int i = 0; i <= 15; i++) {
+        setPWMFromDutyCycle(i, 75);
+        }   
         switch(GetState()) {
             case(UNINIT):
                 //idle animation
@@ -162,15 +154,22 @@ int main(void)
 }
  
 void Initialize(void) {
-    
+    CyGlobalIntEnable; /* Enable global interrupts. LED arrays need this first */
     #ifdef RGB_LED_ARRAY
     initalize_LEDs(LOW_LED_POWER);
     #endif
+    
+    pca_init();
     
     Status_Reg_Switches_InterruptEnable();
     
     address = Can_addr_Read();
     
+    #ifdef ENABLE_DEBUG_UART	
+    UART_Start();
+    sprintf(txData, "Dip Addr: %x \r\n", address);
+    UART_UartPutString(txData);
+    #endif
     
     #ifdef ERROR_LED
     ERROR_LED_Write(~(address >> 3 & 1));
